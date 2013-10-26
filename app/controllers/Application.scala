@@ -13,14 +13,13 @@ object Application extends Controller {
 	  val mongoClient= MongoClient(uri);
 	  val db = mongoClient("justrecommendme");
 	  val coll= db("Test");
-	  val allDocs= coll.find();
-	  for (doc <- allDocs)
- 		println(doc);
+	  val doc= coll.findOne();
+ 	  val txt= doc.get("name");
     
     
     
     
-    Ok(views.html.index("TESTING by Vicente!"))
+    Ok(views.html.index(txt.toString()));
   }
 
 }
