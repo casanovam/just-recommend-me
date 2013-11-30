@@ -1,3 +1,5 @@
+package com.justrecommendme.clustering;
+
 @serializable case class Point(val x: Double, val y: Double) {
   def + (that: Point) = new Point(this.x + that.x, this.y + that.y)
   def - (that: Point) = this + (-that)

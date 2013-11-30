@@ -1,13 +1,22 @@
+package com.justrecommendme.clustering;
+
+
 import scala.io.Source
+import scala.collection.mutable.Map
 
 object LocalKMeans {
+  
+  
   def main(args: Array[String]) {
 
     val points = generateListOfPoints(100)
-    val resultCentroids = kmeans(points, numClastersFor(points), 0.1)
-
+    val centroids = kmeans(points, numClastersFor(points), 0.1)
+    val clusterMap = clusters(points, centroids.toList)
     println("Final centroids: ")
-    println(resultCentroids.map(centroid => "%3f\t%3f\n".format(centroid.x, centroid.y)).mkString)
+    println(centroids.map(centroid => "%3f\t%3f\n".format(centroid.x, centroid.y)).mkString)
+    //println("clusterMap: "+clusterMap)
+    
+    clusterMap.foreach(e => println(e._1+"("+e._2.size+") -> "+e._2))
   }
   
   def generateListOfPoints(n: Int): List[Point] = {
@@ -16,7 +25,10 @@ object LocalKMeans {
     else Point.random::generateListOfPoints(n - 1)
   }
 
-  def numClastersFor(points: List[Point]): Int = 4
+  def numClastersFor(points: List[Point]): Int = {
+    val n = points.size
+    Math.sqrt((n)/2).toInt
+  }
   
   def kmeans(points: Seq[Point], n: Int, epsilon: Double): Seq[Point] = {
     
@@ -45,15 +57,30 @@ object LocalKMeans {
 	    else
 	      return newCentroids
 	  }
-	    
-	    
+	 
 	  val centroids = Array.fill(n) { Point.random }
 	  kmeansR(points, centroids, epsilon)
    
   }
-  def clusters(centroids: List[Point]) : List[List[Point]] = {
+  
+  def clusters(points: List[Point], centroids: List[Point]) : Map[Point, List[Point]] = {
     
-    ???
+    var clusterMap = Map[Point, List[Point]]()
+    
+    centroids.foreach(c => clusterMap += (c -> List[Point]()) )
+    val c = for{
+      point <- points
+      centroidClosest = centroids.map(c => (c, c.distance(point))).minBy(_._2)._1
+      
+    } clusterMap += (centroidClosest -> (point::clusterMap(centroidClosest)) )
+    
+    clusterMap
+    
   }
+  
+  
+  
+  
+  
   
 }

@@ -1,3 +1,5 @@
+package com.justrecommendme.clustering;
+
 object KMeansHelper {
   /**
    * Finds the closest centroid to the given point.
