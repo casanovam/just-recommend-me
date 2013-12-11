@@ -4,12 +4,153 @@
 
 <html>
     <head>
-        <title>@title</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+
+
+        	<meta charset="utf-8">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <meta name="description" content="">
+		    <meta name="author" content="">
+		
+		    <title>Just Recommend Me</title>
+		
+		    <!-- Bootstrap core CSS -->
+		    <link href="@routes.Assets.at("stylesheets/Bootstrap/bootstrap.css")" rel="stylesheet">
+		
+		
+		    <!-- Template CSS -->
+		    <link href="@routes.Assets.at("stylesheets/Template/stylish-portfolio.css")" rel="stylesheet">
+		    <link href="@routes.Assets.at("stylesheets/font-awesome/css/font-awesome.min.css")" rel="stylesheet">
+		    
+		    <!-- Bootstrap JS -->
+		    <script src="@routes.Assets.at("javascripts/JQuery/jquery-1.10.2.js")"></script>
+		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.js")"></script>
+		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.min.js")"></script>
+		    
+		        
+		   <!-- Automcomplete JS -->
+		   	<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete-data.js")"></script>
+			<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete.js")"></script>
+			
+				    
+		     <!-- Template JS -->
+		    <script src="@routes.Assets.at("javascripts/Template/template.js")"></script>
+		    
+        
     </head>
-    <body>
-        @content
-    </body>
+ 
+  
+   <body>
+
+
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><a href="http://justrecommend.me">Just Recommend Me</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /Side Menu -->
+  
+  
+  
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h1>Just Recommend Me</h1>
+        <h3><em>We</em> search activities, <em>You</em> enjoy them</h3>
+
+	<div class="navbar-search pull-center">
+    	<input type="text" id="SearchBox" class="search-query" placeholder="Search">
+	</div>
+
+
+	<label class="checkbox-inline">
+  		<input type="checkbox" id="DinnerCheckBox" value="Dinner">
+  		 <span class="glyphicon glyphicon-cutlery"></span> Dinner
+	</label>
+	
+	<label class="checkbox-inline">
+  		<input type="checkbox" id="MusicCheckBox" value="Music">
+  		 <span class="glyphicon glyphicon-music"></span> Music
+	</label>
+	
+	
+	<label class="checkbox-inline">
+  		<input type="checkbox" id="PubCheckBox" value="Pub">
+  		 <span class="glyphicon glyphicon-glass"></span> Pub
+	</label>
+	
+	<label class="checkbox-inline">
+  		<input type="checkbox" id="OutsideCheckBox" value="Outside">
+  		 <span class="glyphicon glyphicon-tree-conifer"></span> Outside
+	</label>
+	
+
+      </div>
+    </div>   
+    <!-- End Full Page Image Header Area -->
+   
+   
+   
+   
+    <!-- Callout --> 
+    <div class="callout">
+      <div class="vert-text">
+        <h1>In every european city.</h1>
+      </div>
+    </div>
+    <!-- End Callout -->
+
+
+
+
+    <!-- Call to Action -->
+    <div id="about" class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>Find activities with Just Recommend Me.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Map -->
+    <div id="map" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Trinity College,Dublin, Ireland;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Trinity College,Dublin, Ireland"></a></small></iframe>
+    </div>
+    <!-- /Map -->
+    
+    <!-- Footer -->
+    <footer>
+      <div id="contact" class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+              <li><i class="fa fa-facebook fa-3x"></i></li>
+              <li><i class="fa fa-twitter fa-3x"></i></li>
+              <li><i class="fa fa-dribbble fa-3x"></i></li>
+            </ul>
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>Copyright &copy; Just Recommend Me 2013</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+  
+
+  </body>
+  
 </html>
