@@ -8,23 +8,21 @@ import com.justrecommendme.model.Data
 
 object Application extends Controller {
 
+  val data = Data.data
   
   
   def index = Action {
 
-	println("data: "+Data.data)
-    Data.data.keys.toList.foreach("city=>: " + _)
-    println("before mapInt call: ")
-    Data.intMap.keys.toList.foreach("mapint: " + _)
+    Data.getCities.foreach(c => println("city=>: " + c))
     playing
-    
     Ok(views.html.index("Just Recommend Me!! -> "+ Data.data.keys));
   }
   
   def playing = {
-    println("cities again: ")
-    Data.getCities.foreach(println(_))
-    Data.printCities
+		  
+    val plannnings = Data.getPlanningsFor("Dublin")
+	plannnings.foreach(p => println(p))
+		  
 
   }
   
