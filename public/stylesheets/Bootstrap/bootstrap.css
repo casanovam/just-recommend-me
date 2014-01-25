@@ -2299,7 +2299,7 @@ fieldset[disabled] .btn {
 .open .dropdown-toggle.btn-default {
   color: #333333;
   background-color: #ebebeb;
-  border-color: #adadad;
+  border-color: transparent;
 }
 
 .btn-default:active,
@@ -2328,25 +2328,24 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  color: #000000;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
+
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #3276b1;
-  border-color: #285e8e;
+  border-color: transparent;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  background-image: none;
+	background-color: #3276b1;
 }
 
 .btn-primary.disabled,
@@ -2636,6 +2635,26 @@ input[type="button"].btn-block {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+span.glyphicon-cutlery {
+    font-size: 2em;
+}
+
+span.glyphicon-music {
+    font-size: 2em;
+}
+
+span.glyphicon-glass {
+    font-size: 2em;
+}
+
+span.glyphicon-tree-conifer {
+    font-size: 2em;
+}
+
+span.glyphicon-calendar {
+    font-size: 2em;
 }
 
 .glyphicon {
@@ -3639,6 +3658,7 @@ input[type="button"].btn-block {
 }
 
 .btn-group > .btn:hover,
+.btn-group > .btn:toggle,
 .btn-group-vertical > .btn:hover,
 .btn-group > .btn:focus,
 .btn-group-vertical > .btn:focus,

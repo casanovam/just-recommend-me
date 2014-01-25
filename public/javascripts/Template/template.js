@@ -25,3 +25,69 @@
           }
         });
       });
+
+ 	
+ 	$(function() {	
+ 		$("#DinnerCheckBox").click(function() {
+ 			if ($( "#DinnerCheckBox" ).hasClass( "active" ))
+ 				$(this).removeClass("active");
+ 			else
+ 				$(this).addClass("active");
+ 		});
+ 	});
+ 	
+ 	
+ 	$(function() {	
+ 		$("#MusicCheckBox").click(function() {
+ 			if ($( "#MusicCheckBox" ).hasClass( "active" ))
+ 				$(this).removeClass("active");
+ 			else
+ 				$(this).addClass("active");
+ 		});
+ 	});
+ 	
+
+ 	$(function() {	
+ 		$("#PubCheckBox").click(function() {
+ 			if ($( "#PubCheckBox" ).hasClass( "active" ))
+ 				$(this).removeClass("active");
+ 			else
+ 				$(this).addClass("active");
+ 		});
+ 	});
+ 	
+ 	
+ 	
+
+
+ 	$(function() {	
+ 		$("#OutsideCheckBox").click(function() {
+ 			if ($( "#OutsideCheckBox" ).hasClass( "active" ))
+ 				$(this).removeClass("active");
+ 			else
+ 				$(this).addClass("active");
+ 		});
+ 	});
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
