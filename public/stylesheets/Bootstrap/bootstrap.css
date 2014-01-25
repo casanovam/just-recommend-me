@@ -2684,6 +2684,8 @@ input[type="button"].btn-block {
 
 .glyphicon-glass:before {
   content: "\e001";
+  width: 40px;
+  height:40px;
 }
 
 .glyphicon-music:before {

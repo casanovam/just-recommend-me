@@ -5,6 +5,9 @@ import play.api.mvc._
 import com.mongodb.casbah.Imports._
 import com.justrecommendme.mongo.DocumentAccess
 import com.justrecommendme.model.Data
+import com.justrecommendme.clustering.Point
+import com.mongodb.util.JSON
+import com.mongodb.util.JSON
 
 object Application extends Controller {
 
@@ -13,20 +16,19 @@ object Application extends Controller {
   
   def index = Action {
 
-    Data.getCities.foreach(c => println("city=>: " + c))
-    playing
-    Ok(views.html.index("Just Recommend Me!! -> "+ Data.data.keys));
+
+    val activities = Data.getTop10Activities("Dublin", 2)
+    
+    Ok(views.html.index("activities-> "+ activities));
+    
+    
   }
   
-  def playing = {
-		  
-    val plannnings = Data.getPlanningsFor("Dublin")
-	plannnings.foreach(p => println(p))
-		  
 
-  }
   
   
- 
 
+  
+  
+  
 }
