@@ -8,11 +8,11 @@ object DocumentAccess {
   val client = "justrecommendmejustrecommendme"
   val db = connection()
   
-  def getAllDocs =  db("activity") find
+  def getActivities =  db("activity") find
   
-  def getAllCities = db("city") find
+  def getCities = db("city") find
   
-  def getAllUsers = db("user") find
+  def getUsres = db("user") find
   
   
   
