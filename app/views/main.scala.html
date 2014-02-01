@@ -21,10 +21,15 @@
 		    <link href="@routes.Assets.at("stylesheets/Template/stylish-portfolio.css")" rel="stylesheet">
 		    <link href="@routes.Assets.at("stylesheets/font-awesome/css/font-awesome.min.css")" rel="stylesheet">
 		    
+		    <!-- FreeWall CSS -->
+		    <link href="@routes.Assets.at("stylesheets/freewall/freewall.css")" rel="stylesheet">
+		    
+		    
 		    <!-- Bootstrap JS -->
 		    <script src="@routes.Assets.at("javascripts/JQuery/jquery-1.10.2.js")"></script>
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.js")"></script>
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.min.js")"></script>
+
 		    
 
 		    <!-- JRM JS -->
@@ -32,9 +37,19 @@
 			<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete.js")"></script>
 			<script src="@routes.Assets.at("javascripts/search/jrm-search.js")"></script>
 			<script src="@routes.Assets.at("javascripts/jrm.js")"></script>
+
 				    
-		     <!-- Template JS -->
+		    <!-- Template JS -->
 		    <script src="@routes.Assets.at("javascripts/Template/template.js")"></script>
+
+		    
+		    		    
+		    <!-- FreeWall JS -->
+		    <script src="@routes.Assets.at("javascripts/freewall/freewall.js")"></script>
+		    <script src="@routes.Assets.at("javascripts/freewall/centering.js")"></script>
+
+		    <!-- JRM JS -->
+		    <script src="@routes.Assets.at("javascripts/jrm.js")"></script> 
 
     </head>
    <body>
@@ -59,11 +74,11 @@
   
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
+
 	      <div class="vert-text">
 	        <h1>Just Recommend Me</h1>
 	        <h3><em>We</em> search activities, <em>You</em> enjoy them</h3>
-	
-	
+
 	
 		<div class="navbar-search pull-center">
 		    	<input type="text" id="SearchBox" class="search-query" placeholder="Search">
@@ -86,10 +101,18 @@
     <div id="searchResults" class="callout">
       <div class="vert-text">
         <h1>In every european city.</h1>
-      </div>
+        
+        
+        <!-- Grids with information  -->
+   		<div id="freewall" class="free-wall">
+		</div>
+        
+        
+       </div>
     </div>
     <!-- End Callout -->
-
+    
+    
 
 
 
