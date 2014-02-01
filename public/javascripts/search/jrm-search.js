@@ -25,6 +25,22 @@ var Search = function() {
 		return $("#SearchBox").val();
 	}
 	
+	function getActivity(selector){
+		
+		return $(selector).hasClass("active");
+	}
+	
+	function updateGoogleMap(){
+		
+		
+	}
+	
+	function moveToResults(){
+		 $('html, body').animate(
+				 {scrollTop: $("#searchResults").offset().top}, 
+				  animationTime);
+	}
+	
 	function search(){
 		
 		return $.ajax({
@@ -38,20 +54,16 @@ var Search = function() {
             },
             cache: false,
             traditional: true,
-            success: searchSuccess
-        });
+            success: function(data){searchSuccess(data)}
+            
+        }).
+        done();
 	}
 	
-	function getActivity(selector){
-		
-		return $(selector).hasClass("active");
-	}
-	
-	function searchSuccess(){
-		
-		 $('html, body').animate(
-				 {scrollTop: $("#searchResults").offset().top}, 
-				  animationTime);
+	function searchSuccess(data){
+		//console.log("response data: "+data);
+		//GoogleMaps.update();
+		moveToResults()
 	}
 	
 	return {
