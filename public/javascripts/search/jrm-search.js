@@ -1,6 +1,7 @@
 var Search = function() {
 	
 	var url = "/search";
+	var animationTime = 1200;
 	
 	function init(){
 		
@@ -12,6 +13,7 @@ var Search = function() {
 		
 		$("#SearchButton").on("click", search);
 		$(document).keypress(function(e) {
+			console.log("e.which"+e.which );
 		    if(e.which == 13) {
 		    	search();
 		    }
@@ -40,7 +42,7 @@ var Search = function() {
 		
 		 $('html, body').animate(
 				 {scrollTop: $("#searchResults").offset().top}, 
-		        2000);
+				  animationTime);
 	}
 	
 	return {
