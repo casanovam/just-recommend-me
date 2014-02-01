@@ -8,6 +8,8 @@ import com.justrecommendme.model.Data
 import com.justrecommendme.clustering.Point
 import com.mongodb.util.JSON
 import com.mongodb.util.JSON
+import com.justrecommendme.model.Search
+import java.util.Date
 
 object Application extends Controller {
 
@@ -22,16 +24,25 @@ object Application extends Controller {
   
   def search = Action { request =>
 
-
-    val city :  Option[String] = request.getQueryString("city")
-    println("JRM search engine city: "+city.get)
-    val activities = Data.getTopActivities(city.get, 10)    
+    val searchInput = buildSearchInput(request);
+    println("["+new Date()+ "] JRM search engine => "+searchInput)
+    val activities = Data.getTopActivities(searchInput.city, 10)    
     
     Ok(activities.toString);
   }
 
-  def getParameterValue(parameters :Map[String, String], key : String) = Some(parameters.get(key))
+  def buildSearchInput(request:  play.api.mvc.Request[play.api.mvc.AnyContent]): Search = {
    
-  
+    val city = request.getQueryString("city").getOrElse("")
+    val dinner = request.getQueryString("dinner").getOrElse("")
+    val pub = request.getQueryString("dinner").getOrElse("")
+    val music = request.getQueryString("music").getOrElse("")
+    val outside  = request.getQueryString("outside").getOrElse("")
+    
+    new Search(city, dinner.equals("true"), pub.equals("true"),
+        music.equals("true"), outside.equals("true"))
+    
+  }
+
   
 }

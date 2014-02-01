@@ -30,12 +30,21 @@ var Search = function() {
 		return $.ajax({
             url: url,
             data: {
-                city: getSearchValue()
+                city: getSearchValue(),
+                dinner: getActivity("#DinnerCheckBox"),
+                music: getActivity("#MusicCheckBox"),
+                pub: getActivity("#PubCheckBox"),
+                outside: getActivity("#OutsideCheckBox")
             },
             cache: false,
             traditional: true,
             success: searchSuccess
         });
+	}
+	
+	function getActivity(selector){
+		
+		return $(selector).hasClass("active");
 	}
 	
 	function searchSuccess(){
