@@ -21,19 +21,32 @@
 		    <link href="@routes.Assets.at("stylesheets/Template/stylish-portfolio.css")" rel="stylesheet">
 		    <link href="@routes.Assets.at("stylesheets/font-awesome/css/font-awesome.min.css")" rel="stylesheet">
 		    
+		    <!-- FreeWall CSS -->
+		    <link href="@routes.Assets.at("stylesheets/freewall/freewall.css")" rel="stylesheet">
+		    
+		    
 		    <!-- Bootstrap JS -->
 		    <script src="@routes.Assets.at("javascripts/JQuery/jquery-1.10.2.js")"></script>
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.js")"></script>
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.min.js")"></script>
-		    
-		        
-		   <!-- Automcomplete JS -->
+
+		    <!-- Automcomplete JS -->
 		   	<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete-data.js")"></script>
 			<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete.js")"></script>
-			
 				    
-		     <!-- Template JS -->
+		    <!-- Template JS -->
 		    <script src="@routes.Assets.at("javascripts/Template/template.js")"></script>
+		    
+		    		    
+		    <!-- FreeWall JS -->
+		    <script src="@routes.Assets.at("javascripts/freewall/freewall.js")"></script>
+		    <script src="@routes.Assets.at("javascripts/freewall/centering.js")"></script>
+
+		    <!-- JRM JS -->
+		    <script src="@routes.Assets.at("javascripts/jrm.js")"></script> 
+		    
+		    
+		    
 		    
         
     </head>
@@ -73,12 +86,12 @@
 	</div>
 
 
-<div class="checkbox-group" data-toggle="buttons-checkbox">
-	<button type="checkbox" id="DinnerCheckBox" value="Dinner" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-cutlery"></span> <h4>Dinner</h4></button>
-	<button type="checkbox" id="MusicCheckBox" value="Music" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-music"></span> <h4>Music</h4></button>
-	<button type="checkbox" id="PubCheckBox" value="Pub" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-glass"></span> <h4>Pub</h4></button>
-	<button type="checkbox" id="OutsideCheckBox" value="Outside" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-tree-conifer"></span> <h4>Outside</h4> </button>
-</div>
+	<div class="checkbox-group" data-toggle="buttons-checkbox">
+		<button type="checkbox" id="DinnerCheckBox" value="Dinner" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-cutlery"></span> <h4>Dinner</h4></button>
+		<button type="checkbox" id="MusicCheckBox" value="Music" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-music"></span> <h4>Music</h4></button>
+		<button type="checkbox" id="PubCheckBox" value="Pub" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-glass"></span> <h4>Pub</h4></button>
+		<button type="checkbox" id="OutsideCheckBox" value="Outside" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-tree-conifer"></span> <h4>Outside</h4> </button>
+	</div>
 
 
 	
@@ -120,10 +133,18 @@
     <div class="callout">
       <div class="vert-text">
         <h1>In every european city.</h1>
-      </div>
+        
+        
+        <!-- Grids with information  -->
+   		<div id="freewall" class="free-wall">
+		</div>
+        
+        
+       </div>
     </div>
     <!-- End Callout -->
-
+    
+    
 
 
 

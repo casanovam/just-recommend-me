@@ -29,8 +29,10 @@
  	
  	$(function() {	
  		$("#DinnerCheckBox").click(function() {
- 			if ($( "#DinnerCheckBox" ).hasClass( "active" ))
+ 			if ($( "#DinnerCheckBox" ).hasClass( "active" )){
  				$(this).removeClass("active");
+ 				$(this).addClass("restart");
+ 			}
  			else
  				$(this).addClass("active");
  		});
