@@ -1,7 +1,7 @@
 var Search = function() {
 	
 	var url = "/search";
-	var animationTime = 1200;
+	var animationTime = 600;
 	
 	function init(){
 		
