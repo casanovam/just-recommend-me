@@ -60,10 +60,20 @@ var Search = function() {
         done();
 	}
 	
+
 	function searchSuccess(data){
-		//console.log("response data: "+data);
+		console.log("response data: "+data);
 		//GoogleMaps.update();
-		moveToResults()
+		moveToResults();
+		
+		showSearchResults(data);
+
+	function getActivity(selector){
+		
+		return $(selector).hasClass("active");
+	}
+	
+
 	}
 	
 	return {
