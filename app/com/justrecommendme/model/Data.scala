@@ -14,8 +14,9 @@ object Data {
   type CityPlanning = Map[String, List[DBObject]]
   
   val CITY_TERM = "city" 
-  val  data = createData
-
+  val data = createData
+  lazy val cities = getCities
+  
   def getCities : List[String] = data.keys.toList
   
   
@@ -55,12 +56,17 @@ object Data {
 
   private def asDoubleList(underlying: DBObject, key: String) = asList[Double](underlying, key)
   
-  def getTop10Activities(city: String, n: Integer): List[DBObject] = {
+  private def existCity(city: String): Boolean = cities.contains(city)
+  
+  def getTopActivities(city: String, n: Integer): List[DBObject] = {
     
-	  data.get(city).get.take(n)
-	  
+	  if(existCity(city))
+		  data.get(city).get.take(n)
+	  else List()
 	  
   }
+  
+  
   
   
   

@@ -26,19 +26,17 @@
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.js")"></script>
 		    <script src="@routes.Assets.at("javascripts/Bootstrap/bootstrap.min.js")"></script>
 		    
-		        
-		   <!-- Automcomplete JS -->
+
+		    <!-- JRM JS -->
 		   	<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete-data.js")"></script>
 			<script src="@routes.Assets.at("javascripts/Autocomplete/jrm-autocomplete.js")"></script>
-			
+			<script src="@routes.Assets.at("javascripts/search/jrm-search.js")"></script>
+			<script src="@routes.Assets.at("javascripts/jrm.js")"></script>
 				    
 		     <!-- Template JS -->
 		    <script src="@routes.Assets.at("javascripts/Template/template.js")"></script>
-		    
-        
+
     </head>
- 
-  
    <body>
 
 
@@ -61,55 +59,23 @@
   
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
-      <div class="vert-text">
-        <h1>Just Recommend Me</h1>
-        <h3><em>We</em> search activities, <em>You</em> enjoy them</h3>
-
-
-
-	<div class="navbar-search pull-center">
-    	<input type="text" id="SearchBox" class="search-query" placeholder="Search">
-    	<button type="submit" id="SearchButton" class="btn btn-default">Go!</button>
-	</div>
-
-
-<div class="checkbox-group" data-toggle="buttons-checkbox">
-	<button type="checkbox" id="DinnerCheckBox" value="Dinner" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-cutlery"></span> <h4>Dinner</h4></button>
-	<button type="checkbox" id="MusicCheckBox" value="Music" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-music"></span> <h4>Music</h4></button>
-	<button type="checkbox" id="PubCheckBox" value="Pub" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-glass"></span> <h4>Pub</h4></button>
-	<button type="checkbox" id="OutsideCheckBox" value="Outside" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-tree-conifer"></span> <h4>Outside</h4> </button>
-</div>
-
-
+	      <div class="vert-text">
+	        <h1>Just Recommend Me</h1>
+	        <h3><em>We</em> search activities, <em>You</em> enjoy them</h3>
 	
 	
 	
-<!--  
-	CALENDAR
-				 
-	<div class="radio-group">
-	  <span class="glyphicon glyphicon-calendar"></span> <h4>Plan for</h4>
-	  <label>
-	    <input type="radio" name="optionsRadios" id="CalendarDay1" value="1">
-	    <h4>1 day  </h4>
-	  </label>
-	  
-	  <label>
-	    <input type="radio" name="optionsRadios" id="CalendarDay2" value="2">
-	    <h4>2 days  </h4>
-	  </label>
-	  
-	   <label>
-	    <input type="radio" name="optionsRadios" id="CalendarDay2" value="2" checked>
-	    <h4>All  </h4>
-	  </label>
-	  
-	</div>
--->
-
-	
-	
-      </div>
+		<div class="navbar-search pull-center">
+		    	<input type="text" id="SearchBox" class="search-query" placeholder="Search">
+		    	<button type="submit" id="SearchButton" action="/search" method="GET" class="btn btn-default">Go!</button>
+		</div>
+			<div class="checkbox-group" data-toggle="buttons-checkbox">
+				<button type="checkbox" id="DinnerCheckBox" value="Dinner" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-cutlery"></span> <h4>Dinner</h4></button>
+				<button type="checkbox" id="MusicCheckBox" value="Music" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-music"></span> <h4>Music</h4></button>
+				<button type="checkbox" id="PubCheckBox" value="Pub" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-glass"></span> <h4>Pub</h4></button>
+				<button type="checkbox" id="OutsideCheckBox" value="Outside" class="btn btn-primary" data-toggle="checkbox"> <span class="glyphicon glyphicon-tree-conifer"></span> <h4>Outside</h4> </button>
+			</div>
+	      </div>
     </div>   
     <!-- End Full Page Image Header Area -->
    
@@ -117,7 +83,7 @@
    
    
     <!-- Callout --> 
-    <div class="callout">
+    <div id="searchResults" class="callout">
       <div class="vert-text">
         <h1>In every european city.</h1>
       </div>
@@ -159,15 +125,16 @@
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
             </div>
             <hr>
-            <p>Copyright &copy; Just Recommend Me 2013</p>
+            <p>Copyright &copy; Just Recommend Me 2014</p>
           </div>
         </div>
       </div>
     </footer>
-    <!-- /Footer -->
+  <script>
+	  $(document).ready(function() {
+			JRM.init();
 
-  
-
+		});
+  </script>
   </body>
-  
 </html>
