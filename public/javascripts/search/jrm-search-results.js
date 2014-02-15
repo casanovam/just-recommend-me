@@ -1,6 +1,6 @@
 	
 	function showSearchResults(activities){
-				
+		$("#freewall").html("");
 		var wall=new freewall("#freewall");
 		wall.reset({
 					selector: '.brick',
