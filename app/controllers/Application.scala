@@ -14,6 +14,7 @@ object Application extends Controller {
   val data = Data.data
   val CITY_PARAM_KEY = "city"
   val OK_RESPONSE = "OK"
+  val n = 48;
   
   def index = Action {
 
@@ -25,7 +26,7 @@ object Application extends Controller {
     val searchInput = buildSearchInput(request);
     println("["+new Date()+ "] JRM search engine => "+searchInput)
     Data.cities.foreach(c => println(c))
-    val activities = Data.getTopActivities(searchInput.city, 10)    
+    val activities = Data.getTopActivities(searchInput.city, n)    
     Ok(com.mongodb.util.JSON.serialize(activities.toList));
   }
 
