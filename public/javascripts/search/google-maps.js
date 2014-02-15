@@ -9,15 +9,6 @@ var GoogleMaps = function() {
 	    center: city,
 	    zoom: 12
 	  });
-
-	  var layer = new google.maps.FusionTablesLayer({
-	    query: {
-	      select: 'address',
-	      from: '1d7qpn60tAvG4LEg4jvClZbc1ggp8fIGGvpMGzA',
-	      where: 'ridership > 5000'
-	    }
-	  });
-	  //layer.setMap(map);
 	}
 	
 	return {

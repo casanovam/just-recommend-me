@@ -27,11 +27,6 @@ var Search = function() {
 		return $(selector).hasClass("active");
 	}
 	
-	function updateGoogleMap(){
-		
-		
-	}
-	
 	function moveToResults(){
 		 $('html, body').animate(
 				 {scrollTop: $("#searchResults").offset().top}, 
@@ -65,7 +60,9 @@ var Search = function() {
 	}
 	
 	function searchSuccess(data, city){
+		
 		var activities = $.parseJSON(data);
+		
 		GoogleMaps.update(city);
 		moveToResults()
 		showSearchResults(activities);
