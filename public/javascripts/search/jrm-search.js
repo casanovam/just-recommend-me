@@ -62,7 +62,7 @@ var Search = function() {
 	
 
 	function searchSuccess(data){
-		console.log("response data: "+data);
+		//console.log("response data: "+data);
 		//GoogleMaps.update();
 		moveToResults();
 		
