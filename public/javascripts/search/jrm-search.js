@@ -66,7 +66,6 @@ var Search = function() {
 		$("#about").attr("class","call-to-after-action");
 		$("#about").attr("class","call-to-after-action");
 		$("#about h3").text("");
-		
 	}
 	
 	function searchSuccess(data, city){
