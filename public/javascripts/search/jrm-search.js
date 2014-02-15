@@ -63,6 +63,10 @@ var Search = function() {
 	function uiUpdates(){
 		
 		$("#searchResults h1").text("");
+		$("#about").attr("class","call-to-after-action");
+		$("#about").attr("class","call-to-after-action");
+		$("#about h3").text("");
+		
 	}
 	
 	function searchSuccess(data, city){
