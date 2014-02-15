@@ -54,6 +54,7 @@ var Search = function() {
         done();
 	}
 	
+
 	function getActivity(selector){
 		
 		return $(selector).hasClass("active");
