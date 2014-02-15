@@ -60,13 +60,18 @@ var Search = function() {
 		return $(selector).hasClass("active");
 	}
 	
+	function uiUpdates(){
+		
+		$("#searchResults h1").text("");
+	}
+	
 	function searchSuccess(data, city){
 		
 		var activities = $.parseJSON(data);
-		
+		uiUpdates();
 		GoogleMaps.update(city);
-		moveToResults()
 		showSearchResults(activities);
+		moveToResults()
 	}
 	
 	return {
