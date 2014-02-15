@@ -6,8 +6,6 @@ import com.mongodb.casbah.Imports._
 import com.justrecommendme.mongo.DocumentAccess
 import com.justrecommendme.model.Data
 import com.justrecommendme.clustering.Point
-import com.mongodb.util.JSON
-import com.mongodb.util.JSON
 import com.justrecommendme.model.Search
 import java.util.Date
 
@@ -26,9 +24,9 @@ object Application extends Controller {
 
     val searchInput = buildSearchInput(request);
     println("["+new Date()+ "] JRM search engine => "+searchInput)
+    Data.cities.foreach(c => println(c))
     val activities = Data.getTopActivities(searchInput.city, 10)    
-    
-    Ok(activities.toString);
+    Ok(com.mongodb.util.JSON.serialize(activities.toList));
   }
 
   def buildSearchInput(request:  play.api.mvc.Request[play.api.mvc.AnyContent]): Search = {

@@ -65,9 +65,10 @@ var Search = function() {
 	}
 	
 	function searchSuccess(data, city){
+		var activities = $.parseJSON(data);
 		GoogleMaps.update(city);
 		moveToResults()
-		showSearchResults(data);
+		showSearchResults(activities);
 	}
 	
 	return {
