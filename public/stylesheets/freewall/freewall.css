@@ -167,8 +167,9 @@
 }
 
 .brick {
+
+	background-color: #3276b1;   
 	opacity:0.6;
-	background-color: #3276b1;
 	float: left;
 	cursor: default;
 	overflow: hidden;
