@@ -4,16 +4,13 @@ var Search = function() {
 	var animationTime = 600;
 	
 	function init(){
-		
 		attachListeners();
-		
 	}
 	
 	function attachListeners(){
 		
 		$("#SearchButton").on("click", search);
 		$(document).keypress(function(e) {
-			console.log("e.which"+e.which );
 		    if(e.which == 13) {
 		    	search();
 		    }
@@ -22,7 +19,7 @@ var Search = function() {
 	
 	function getSearchValue(){
 		
-		return $("#SearchBox").val();
+		return $("#SearchBox").val().toLowerCase();
 	}
 	
 	function getActivity(selector){
@@ -43,10 +40,12 @@ var Search = function() {
 	
 	function search(){
 		
+		var city = getSearchValue();
+		
 		return $.ajax({
             url: url,
             data: {
-                city: getSearchValue(),
+                city: city,
                 dinner: getActivity("#DinnerCheckBox"),
                 music: getActivity("#MusicCheckBox"),
                 pub: getActivity("#PubCheckBox"),
@@ -54,15 +53,14 @@ var Search = function() {
             },
             cache: false,
             traditional: true,
-            success: function(data){searchSuccess(data)}
+            success: function(data){searchSuccess(data, city)}
             
         }).
         done();
 	}
 	
-	function searchSuccess(data){
-		//console.log("response data: "+data);
-		//GoogleMaps.update();
+	function searchSuccess(data, city){
+		GoogleMaps.update(city);
 		moveToResults()
 	}
 	

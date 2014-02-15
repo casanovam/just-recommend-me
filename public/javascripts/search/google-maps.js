@@ -1,35 +1,23 @@
 var GoogleMaps = function() {
-	
-	
+		
 	var map;
-	var service;
-	var infowindow;
 
-	function update() {
-	  var pyrmont = new google.maps.LatLng(-33.8665433,151.1956316);
+	function update(city) {
+	  
+	  var city = new google.maps.LatLng(CityLoc[city].location[0], CityLoc[city].location[1])
+	  map = new google.maps.Map(document.getElementById("map"), {
+	    center: city,
+	    zoom: 12
+	  });
 
-	  map = new google.maps.Map(document.getElementById('map'), {
-	      center: pyrmont,
-	      zoom: 15
-	    });
-
-	  var request = {
-	    location: pyrmont,
-	    radius: '500',
-	    types: ['store']
-	  };
-
-	  service = new google.maps.places.PlacesService(map);
-	  //service.nearbySearch(request, callback);
-	}
-
-	function callback(results, status) {
-	  if (status == google.maps.places.PlacesServiceStatus.OK) {
-	    for (var i = 0; i < results.length; i++) {
-	      var place = results[i];
-	      createMarker(results[i]);
+	  var layer = new google.maps.FusionTablesLayer({
+	    query: {
+	      select: 'address',
+	      from: '1d7qpn60tAvG4LEg4jvClZbc1ggp8fIGGvpMGzA',
+	      where: 'ridership > 5000'
 	    }
-	  }
+	  });
+	  //layer.setMap(map);
 	}
 	
 	return {
