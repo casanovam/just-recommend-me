@@ -14,20 +14,27 @@ object Application extends Controller {
   val data = Data.data
   val CITY_PARAM_KEY = "city"
   val OK_RESPONSE = "OK"
-  val n = 48;
+  val n = 12;
   
   def index = Action {
 
     Ok(views.html.index(OK_RESPONSE))
   }
   
+  
   def search = Action { request =>
 
     val searchInput = buildSearchInput(request);
     println("["+new Date()+ "] JRM search engine => "+searchInput)
     Data.cities.foreach(c => println(c))
-    val activities = Data.getTopActivities(searchInput.city, n)    
-    Ok(com.mongodb.util.JSON.serialize(activities.toList));
+    val activities = Data.getTopActivities(searchInput.city, n)  
+    activities.toList.foreach(a => {
+      
+      println(a.get("name"))
+      //println( a.get("image"))
+    }  
+    )
+    Ok(com.mongodb.util.JSON.serialize(activities.toList)); 
   }
 
   def buildSearchInput(request:  play.api.mvc.Request[play.api.mvc.AnyContent]): Search = {
@@ -42,6 +49,7 @@ object Application extends Controller {
         music.equals("true"), outside.equals("true"))
     
   }
+  
 
   
 }
