@@ -73,8 +73,9 @@ var Search = function() {
 		var activities = $.parseJSON(data);
 		uiUpdates();
 		GoogleMaps.update(city);
+		moveToResults();
 		showSearchResults(activities);
-		moveToResults()
+		
 	}
 	
 	return {
