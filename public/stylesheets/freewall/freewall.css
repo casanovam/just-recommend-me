@@ -203,3 +203,7 @@
 .brick .desc {
 	display: none;
 }
+
+.activity-image{
+	float: left;
+}
