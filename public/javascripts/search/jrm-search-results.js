@@ -15,8 +15,12 @@
 		wall.fitWidth();
 		
 		for(i=0;i<Math.min(6,activities.length);i++){ 
+			console.log("activity image type: "+activities[i].image.type);
+			var html = '<div class="brick size31"  background-image:"data:image/'+activities[i].image.type+';base64,'+activities[i].image.content+'"><div class="cover">  <h3>'+
+			activities[i].name+'</h3><h4>'+activities[i].description+'</h4><h5>'+activities[i].link+'</h5>  </div></div>';
+
 			
-			var html = '<div class="brick size31"  background-image:"data:image/jpg;base64,'+activities[i].image+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><h5>'+activities[i].link+'</h5>  </div></div>';
+
 			wall.appendBlock(html);
 			
 		}
