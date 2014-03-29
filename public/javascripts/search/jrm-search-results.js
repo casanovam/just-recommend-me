@@ -1,8 +1,8 @@
 	
 	function showSearchResults(activities){
-		var dollar = '<span class="glyphicon glyphicon-euro" style="float:left"></span>';
-		var star= '<span class="glyphicon glyphicon-star" style="float:right"></span>';
-		var starEmpty='<span class="glyphicon glyphicon-star-empty" style="float:right"></span>';
+		var dollar = '<span class="glyphicon glyphicon-euro" style="float:left; color:rgb(16, 124, 16)"></span>';
+		var star= '<span class="glyphicon glyphicon-star" style="float:right;color:rgb(235, 160, 24)"></span>';
+		var starEmpty='<span class="glyphicon glyphicon-star-empty" style="float:right;color:rgb(235, 160, 24)"></span>';
 		
 		
 		$("#freewall").html("");
