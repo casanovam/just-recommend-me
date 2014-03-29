@@ -20,14 +20,7 @@
 		wall.fitWidth();
 		
 		for(i=0;i<Math.min(6,activities.length);i++){ 
-			console.log("activity price: "+activities[i].price);
-			console.log("activity score: "+ activities[i].score/activities[i].numVotes );
-			console.log("activity scoreTotal: "+ activities[i].score);
-			console.log("activity numVotes: "+ activities[i].numVotes);
-			console.log("---------------------------------------");
-			
-			
-			
+
 			var content = activities[i].image.content;
 			var type = activities[i].image.type;
 			var stars="";
@@ -49,7 +42,7 @@
 			
 
 			
-			var html = '<div class="brick size31"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><h5>'+activities[i].link+'</h5><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';wall.appendBlock(html);
+			var html = '<div class="brick size31"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a>'+activities[i].link+'</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';wall.appendBlock(html);
 			
 		}
 				
