@@ -72,7 +72,7 @@ var Search = function() {
 		
 		var activities = $.parseJSON(data);
 		uiUpdates();
-		GoogleMaps.update(city);
+		GoogleMaps.update(city, activities);
 		moveToResults();
 		showSearchResults(activities);
 		
