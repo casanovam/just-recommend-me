@@ -261,5 +261,13 @@ i.scroll:hover {
   .map {
 	height: 75%;
   }
+  
+  
+  .glyphicon glyphicon-usd {
+	float: left;
+  }
+  .glyphicon glyphicon-star {
+	float: right;
+  }
 
 }
