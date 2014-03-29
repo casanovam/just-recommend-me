@@ -1,7 +1,8 @@
 	
 	function showSearchResults(activities){
-		var dollar = '<span class="glyphicon glyphicon-usd" style="float:left"></span>';
+		var dollar = '<span class="glyphicon glyphicon-euro" style="float:left"></span>';
 		var star= '<span class="glyphicon glyphicon-star" style="float:right"></span>';
+		var starEmpty='<span class="glyphicon glyphicon-star-empty" style="float:right"></span>';
 		
 		
 		$("#freewall").html("");
@@ -37,6 +38,10 @@
 				dollars=dollars+dollar;
 			}
 			
+			for (s2=normScore;s2<5;s2++){
+				stars=stars+starEmpty;
+			}
+			
 			for (s=0;s<normScore;s++){
 				stars=stars+star;
 			}
@@ -44,7 +49,7 @@
 			
 
 			
-			var html = '<div class="brick size31"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><h5>'+activities[i].link+'</h5><h6>'+dollars+stars+'</h6></div></div>';wall.appendBlock(html);
+			var html = '<div class="brick size31"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><h5>'+activities[i].link+'</h5><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';wall.appendBlock(html);
 			
 		}
 				
