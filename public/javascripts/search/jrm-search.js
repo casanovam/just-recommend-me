@@ -70,16 +70,21 @@ var Search = function() {
 	
 	function searchSuccess(data, city){
 		
-		var activities = $.parseJSON(data);
+		activities = $.parseJSON(data);
 		uiUpdates();
 		GoogleMaps.update(city, activities);
 		moveToResults();
-		showSearchResults(activities);
+		JRMResults.show(activities);
 		
 	}
 	
+	function getActivities(){
+		return activities;
+	}
+
 	return {
-		init: init
+		init: init,
+		activites: getActivities
 	};
 	
 }();

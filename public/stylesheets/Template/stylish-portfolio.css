@@ -148,6 +148,10 @@ body {
   padding: 50px 0;
 }
 
+.activity-link{
+  cursor: pointer;
+}
+
 /* Services */
 
 .services {
