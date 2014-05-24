@@ -49,9 +49,15 @@ var GoogleMaps = function() {
 		return new google.maps.LatLng(x, y);
 	}
 
+	function setCenter(lat, lng){
+
+		map.setCenter( latLng(lat, lng) );
+	}
+
 	return {
 		init: init,
-		update: update
+		update: update,
+		center: setCenter
 	};
 	
 }();
