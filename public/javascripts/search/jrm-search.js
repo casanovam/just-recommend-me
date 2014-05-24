@@ -74,7 +74,7 @@ var Search = function() {
 		uiUpdates();
 		GoogleMaps.update(city, activities);
 		moveToResults();
-		showSearchResults(activities);
+		JRMResults.show(activities);
 		
 	}
 	
