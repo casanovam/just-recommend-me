@@ -23,7 +23,11 @@ var JRMResults = function() {
 		
 		for(i=0;i<Math.min(6,activities.length);i++){ 
 
-			var content = activities[i].image.content;
+			var content = "";
+			if (typeof(retweeted_status) !== "undefined"){
+				content = activities[i].image.content;
+			}
+
 			var type = activities[i].image.type;
 			var stars="";
 			var dollars="";

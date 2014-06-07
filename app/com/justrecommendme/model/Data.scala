@@ -23,6 +23,7 @@ object Data {
   
   private def createData: CityPlanning = {
     val activities = DocumentAccess.getActivities
+    //println(activities.foreach(a => println("activity: "+a)))
     activities.toList.groupBy(o => o.get(CITY_TERM).toString())
   }
 
