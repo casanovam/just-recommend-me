@@ -1,4 +1,4 @@
-	
+
 var JRMResults = function() {	
 
 	function showSearchResults(activities){
@@ -24,7 +24,7 @@ var JRMResults = function() {
 		for(i=0;i<Math.min(6,activities.length);i++){ 
 
 			var content = "";
-			if (typeof(retweeted_status) !== "undefined"){
+			if (typeof(activities[i].image) !== "undefined"){
 				content = activities[i].image.content;
 			}
 
@@ -47,7 +47,7 @@ var JRMResults = function() {
 				stars=stars+star;
 			}
 
-			var html = '<div class="activity brick size31" lat="'+lat+'" lng="'+lng+'"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a href="'+activities[i].link+'" class="activity-link">'+activities[i].link+'</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';
+			var html = '<div class="activity brick size31" lat="'+lat+'" lng="'+lng+'"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a href="'+activities[i].link+'" class="activity-link">Website</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';
 			wall.appendBlock(html);
 			
 		}
