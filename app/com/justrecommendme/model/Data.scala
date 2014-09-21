@@ -6,6 +6,7 @@ import scala.collection.mutable.HashMap
 import com.mongodb.casbah.Imports._
 import com.justrecommendme.clustering.LocalKMeans
 import com.justrecommendme.clustering.Point
+import org.joda.time.LocalDate
 
 
 object Data {
@@ -65,6 +66,23 @@ object Data {
 		  data.get(city).get.take(n)
 	  else List()
 	  
+  }
+  
+  def getActivitiesFor(city: String, date: String) : List[DBObject] = {
+    val localDate = new LocalDate
+    val today = localDate.dayOfWeek().get()
+    localDate.dayOfWeek()
+    if(existCity(city)){
+		  val acitivites = data.get(city).get
+		  acitivites.foreach(a => println("before filter: " + a.get("weekDay") != null && (today.toFloat).equals(a.get("weekDay"))))
+		  val activitiesForToday = acitivites.filter(p => p.get("weekDay") != null && (today.toFloat).equals(p.get("weekDay")))
+		  activitiesForToday.foreach(a => println("actvity after filer: "+a.get("name")))
+
+		  activitiesForToday
+		  
+    }
+    else
+    	List()
   }
   
   
