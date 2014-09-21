@@ -27,7 +27,8 @@ object Application extends Controller {
     val searchInput = buildSearchInput(request);
     println("["+new Date()+ "] JRM search engine => "+searchInput)
     val activities = Data.getTopActivities(searchInput.city, n)  
-    activities.foreach(a =>   println(a.get("name")))
+    //®val activities = Data.getActivitiesFor(searchInput.city, "Monday")  
+    activities.foreach(a =>   println("activity: "+a.get("name")))
     Ok(com.mongodb.util.JSON.serialize(activities.toList)); 
   }
 
@@ -43,7 +44,4 @@ object Application extends Controller {
         music.equals("true"), outside.equals("true"))
     
   }
-  
-
-  
 }
