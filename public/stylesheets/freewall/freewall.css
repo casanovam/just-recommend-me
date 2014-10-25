@@ -167,8 +167,7 @@
 
 .brick {
 	background-color: white;
-	color: black;
-	border-radius: 25px;   
+	color: black;  
 	float: left;
 	cursor: default;
 	overflow: hidden;

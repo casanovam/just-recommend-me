@@ -1,4 +1,5 @@
 
+//TODO: refactor this
 var JRMResults = function() {	
 
 	function showSearchResults(activities){
@@ -21,8 +22,7 @@ var JRMResults = function() {
 				});
 		wall.fitWidth();
 		
-		for(i=0;i<Math.min(6,activities.length);i++){ 
-
+		for(i=0;i<Math.min(10,activities.length);i++){ 
 			var content = "";
 			if (typeof(activities[i].image) !== "undefined"){
 				content = activities[i].image.content;
@@ -46,8 +46,24 @@ var JRMResults = function() {
 			for (s=0;s<normScore;s++){
 				stars=stars+star;
 			}
-
-			var html = '<div class="activity brick size31" lat="'+lat+'" lng="'+lng+'"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a href="'+activities[i].link+'" class="activity-link">Website</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';
+			//var html = '<div class="activity brick size31" lat="'+lat+'" lng="'+lng+'"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a href="'+activities[i].link+'" class="activity-link">Website</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';
+			html = '<div class="thumbnail  brick"><img src="data:image/'+type+';base64,'+content+'" alt=""><div class="caption">'+
+                                + '<h4>'+dollars+'</h4>'
+                                + '<h4><a href="'+activities[i].link+'">'+activities[i].name+'</a>'
+                                + '</h4>'
+                                + '<a target="_blank" href="'+activities[i].link+'">'+activities[i].description+'</a>'
+                            + '</div>'
+                            + '<div class="ratings">'
+                                + '<p>'
+                                   + ' <span class="glyphicon glyphicon-star"></span>'
+                                   + '<span class="glyphicon glyphicon-star"></span>'
+                                   + ' <span class="glyphicon glyphicon-star"></span>'
+                                   + ' <span class="glyphicon glyphicon-star"></span>'
+                                   + ' <span class="glyphicon glyphicon-star"></span>'
+                                + '</p>'
+                            + '</div>'
+                       + ' </div>'
+			
 			wall.appendBlock(html);
 			
 		}
