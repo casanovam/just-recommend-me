@@ -53,7 +53,7 @@ var JRMResults = function() {
 	}
 
 	function createCardComponent(imageType, imageContent, euros, stars, activities){
-		return '<div class="thumbnail  brick"><img src="data:image/'+imageType+';base64,'+imageContent+'" alt=""><div class="">'+
+		return '<div class="thumbnail  brick" style="width:250px;"><img style="width:310px;height:200px;" src="data:image/'+imageType+';base64,'+imageContent+'" alt=""><div class="">'+
                                 + '<h4>'+euros+'</h4>'
                                 + '<h4><a href="'+activities[i].link+'">'+activities[i].name+'</a>'
                                 + '</h4>'
