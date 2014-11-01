@@ -3,11 +3,31 @@
 var JRMResults = function() {	
 
 	function showSearchResults(activities){
-		var dollar = '<span class="glyphicon glyphicon-euro" style="float:left; color:rgb(16, 124, 16)"></span>';
-		var star= '<span class="glyphicon glyphicon-star" style="float:right;color:rgb(235, 160, 24)"></span>';
-		var starEmpty='<span class="glyphicon glyphicon-star-empty" style="float:right;color:rgb(235, 160, 24)"></span>';
-		
-		
+		var wall = createWall();					
+		for(i=0;i<Math.min(10,activities.length);i++){ 
+			var imageContent = extractImageContent( activities[i].image);
+			var normScore = normalizeScore(activities[i].score, activities[i].numVotes);
+			euros = generateElement('&euro;', activities[i].price);
+			stars = generateElement('<span class="glyphicon glyphicon-star"/>', normScore);
+			var card = createCardComponent(activities[i].image.type, imageContent, euros, stars, activities);			
+			wall.appendBlock(card);			
+		}
+		attachClickHandlers();		
+	};
+
+	function extractImageContent(image){
+		var content = "";
+		if (typeof(image) !== "undefined"){
+			content = image.content;
+		}
+		return content;
+	}
+
+	function normalizeScore(score, votes){
+		return  score / votes;
+	}
+
+	function createWall(){
 		$("#freewall").html("");
 		var wall=new freewall("#freewall");
 		wall.reset({
@@ -21,56 +41,32 @@ var JRMResults = function() {
 					}
 				});
 		wall.fitWidth();
-		
-		for(i=0;i<Math.min(10,activities.length);i++){ 
-			var content = "";
-			if (typeof(activities[i].image) !== "undefined"){
-				content = activities[i].image.content;
-			}
+		return wall;
+	}
+	
+	function generateElement(element, n){
+		var euros = "";
+		for (d = 0; d < n; d++){
+				euros=euros+element;
+		}
+		return euros;
+	}
 
-			var type = activities[i].image.type;
-			var stars="";
-			var dollars="";
-			var normScore=activities[i].score/activities[i].numVotes;
-			var lat = activities[i].location[0];
-			var lng = activities[i].location[1];
-			
-			for (d=0;d<activities[i].price;d++){
-				dollars=dollars+dollar;
-			}
-			
-			for (s2=normScore;s2<5;s2++){
-				stars=stars+starEmpty;
-			}
-			
-			for (s=0;s<normScore;s++){
-				stars=stars+star;
-			}
-			//var html = '<div class="activity brick size31" lat="'+lat+'" lng="'+lng+'"> <img class="activity-image" src="data:image/'+type+';base64,'+content+'"><div class="cover">  <h3>'+activities[i].name+'</h3><h4>'+activities[i].description+'</h4><a href="'+activities[i].link+'" class="activity-link">Website</a><h4 style="margin: 10px">'+dollars+stars+'</h4></div></div>';
-			html = '<div class="thumbnail  brick"><img src="data:image/'+type+';base64,'+content+'" alt=""><div class="caption">'+
-                                + '<h4>'+dollars+'</h4>'
+	function createCardComponent(imageType, imageContent, euros, stars, activities){
+		return '<div class="thumbnail  brick"><img src="data:image/'+imageType+';base64,'+imageContent+'" alt=""><div class="">'+
+                                + '<h4>'+euros+'</h4>'
                                 + '<h4><a href="'+activities[i].link+'">'+activities[i].name+'</a>'
                                 + '</h4>'
                                 + '<a target="_blank" href="'+activities[i].link+'">'+activities[i].description+'</a>'
                             + '</div>'
                             + '<div class="ratings">'
                                 + '<p>'
-                                   + ' <span class="glyphicon glyphicon-star"></span>'
-                                   + '<span class="glyphicon glyphicon-star"></span>'
-                                   + ' <span class="glyphicon glyphicon-star"></span>'
-                                   + ' <span class="glyphicon glyphicon-star"></span>'
-                                   + ' <span class="glyphicon glyphicon-star"></span>'
+                                   + stars
                                 + '</p>'
                             + '</div>'
-                       + ' </div>'
-			
-			wall.appendBlock(html);
-			
-		}
-		attachClickHandlers();
-		wall.fitWidth();
-		
-	};
+                       + ' </div>';
+
+	}
 
 	function openActivity(e){
 		window.location.href = $(e.toElement).text();
@@ -79,14 +75,12 @@ var JRMResults = function() {
 	function attachClickHandlers(){
 
 		$(".activity").on("click", centerMap);
-
 	}
 
 	function centerMap(e){
 		var lat = $(e.toElement).closest(".activity").attr("lat");
 		var lng = $(e.toElement).closest(".activity").attr("lng");
 		GoogleMaps.center(lat, lng);
-
 	}
 
 	return {
