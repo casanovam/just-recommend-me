@@ -2,3 +2,11 @@
 	font-family: cursive; 
 	color: darkcyan;
 }
+
+.media-round{
+	border-radius:50%;
+}
+.pointer{
+	cursor: hand;
+	cursor: pointer;
+}
