@@ -1,5 +1,5 @@
 {
-   	 "city”: “London ",
+   	 "city": "London",
     	"description" : " The London Christmas Lights Bicycle Tour",
     	"durationHR" : "3",
    	 "link" : " http://www.londonbicycle.com/christmaslightstour,
@@ -12,8 +12,8 @@
     "score" : 4,
     "tags" : [ 
         " Christmas ", 
-         “Lights”
-        " London ", 
+         "Lights",
+        "London", 
         " Bicycle ", 
         " Tour", 
         "good"

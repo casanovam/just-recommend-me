@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Hyde Park",
     "durationHR" : "13",
     "link" : " https://www.royalparks.org.uk/parks/hyde-park",
@@ -13,10 +13,10 @@
     "score" : 4.5,
     "tags" : [ 
         " Hyde ", 
-         “Park”
-        " London ", 
+         "Park",
+        "London", 
         " Hyde ", 
-        “Park”
+        "Park",
        "good"
     ],
     "weather" : "Good",

@@ -1,26 +1,26 @@
 {
-    "city”: “London ",
-    "description" : " Thames River Country Trail ",
-    "durationHR" : "11",
-    "link" : " http://www.visitthames.co.uk/things-to-do/walking",
-    "location" : [ 
+   "city”:"London",
+   "description":"Thames River Country Trail",
+   "durationHR":"11",
+   "link":"http://www.visitthames.co.uk/things-to-do/walking",
+   "location": [ 
 51.516674,
 -0.176933
     ],
-    "name" : " Thames River Country Trail ",
-    "numVotes" : 4,
-    "price" : 26,
-    "score" : 4,
-    "tags" : [ 
-        " Thames ", 
-         “River”
-        " London ", 
-        " Country ", 
-        “Trail”
-        "good"
+   "name":"Thames River Country Trail",
+   "numVotes": 4,
+   "price": 26,
+   "score": 4,
+   "tags": [ 
+       "Thames", 
+        "River”,
+       "London", 
+       "Country", 
+       "Trail”,
+       "good"
     ],
-    "weather" : "Good",
-    "weekDay" : 7
+   "weather":"Good",
+   "weekDay": 7
 }
 
 

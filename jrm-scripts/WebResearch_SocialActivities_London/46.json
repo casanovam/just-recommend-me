@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Spa London",
     "durationHR" : "13",
     "link" : " http://www.spa-london.org/",
@@ -13,8 +13,8 @@
     "score" : 4,
     "tags" : [ 
         " Spa ", 
-         “spas”
-        " London ", 
+         "spas",
+        "London", 
         " spas ", 
         " UK", 
         "good"

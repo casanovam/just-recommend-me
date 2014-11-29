@@ -1,28 +1,28 @@
 {
-    "city”: “London ",
-    "description" : " The Romsey Agricultural and Horse Show",
-    "durationHR" : "13",
-    "link" : " http://www.visitsoutheastengland.com/events/the-romsey-agricultural-and-horse-show-p1066361”,
-    "location" : [ 
+   "city":"London",
+   "description":"The Romsey Agricultural and Horse Show",
+   "durationHR":"13",
+   "link":"http://www.visitsoutheastengland.com/events/the-romsey-agricultural-and-horse-show-p1066361”,
+   "location": [ 
 50.986798,
 -1.495092
     ],
-    "name" : " The Romsey Agricultural and Horse Show ",
-    "numVotes" : 4,
-    "price" : 90,
-    "score" : 4,
-    "tags" : [ 
-        " Romsey ", 
-         “Agricultural”
-         “Horse”
-        " London ", 
-        " Romsey ", 
-        “Agricultural”
-        " Horse ", 
-        "good"
+   "name":"The Romsey Agricultural and Horse Show",
+   "numVotes": 4,
+   "price": 90,
+   "score": 4,
+   "tags": [ 
+       "Romsey", 
+        "Agricultural",
+        "Horse",
+       "London", 
+       "Romsey", 
+       "Agricultural"
+       "Horse", 
+       "good"
     ],
-    "facilities" : "Good",
-    "weekDay" : 3
+   "facilities":"Good",
+   "weekDay": 3
 }
 
 

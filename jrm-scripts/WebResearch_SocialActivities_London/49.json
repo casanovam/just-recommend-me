@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Grand London Bike Tour",
     "durationHR" : "3.5",
     "link" : " http://www.biketouroflondon.com/grandtour.html",
@@ -13,11 +13,11 @@
     "score" : 4.5,
     "tags" : [ 
         " Grand ", 
-         “Bike”
-         “Tour”
-        " London ", 
+         "Bike",
+         "Tour",
+        "London", 
         " Grand ",
-         “Bike”
+         "Bike",
         " UK", 
         "good"
     ],

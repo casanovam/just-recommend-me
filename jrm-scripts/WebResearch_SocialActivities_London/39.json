@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Hertfordshire Forest Trail ",
     "durationHR" : "11",
     "link" : " http://www.gps-routes.co.uk/routes/home.nsf/county-walks/hertfordshire",
@@ -13,10 +13,10 @@
     "score" : 5,
     "tags" : [ 
         " Hertfordshire ", 
-         “Forest”
-        " London ", 
+         "Forest",
+        "London", 
         " Hertfordshire ", 
-        “Forest”
+        "Forest",
         " Trail ", 
         "good"
     ],

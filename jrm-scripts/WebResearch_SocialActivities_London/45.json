@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Victoria Park",
     "durationHR" : "13",
     "link" : " http://www.towerhamlets.gov.uk/default.aspx?page=12670",
@@ -13,10 +13,10 @@
     "score" : 4.5,
     "tags" : [ 
         " Victoria ", 
-         “Park”
-        " London ", 
+         "Park",
+        "London", 
         " Victoria ", 
-        “Park”
+        "Park",
        "good"
     ],
     "weather" : "Good",

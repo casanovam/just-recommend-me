@@ -1,5 +1,5 @@
 {
- 	   "city”: “London ",
+ 	   "city": "London",
   	  "description" : " The Central London Bicycle Tour",
   	  "durationHR" : "3",
   	  "link" : " http://www.londonbicycle.com/tours/half-day/central-tour,
@@ -12,8 +12,8 @@
     "score" : 4.7,
     "tags" : [ 
         " Central ", 
-         “Bicycle”
-        " London ", 
+         "Bicycle",
+        "London", 
         " Bicycle ", 
         " Tour", 
         "good"

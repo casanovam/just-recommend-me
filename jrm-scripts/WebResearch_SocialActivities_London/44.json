@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Green Park",
     "durationHR" : "8",
     "link" : " https://www.royalparks.org.uk/parks",
@@ -13,10 +13,10 @@
     "score" : 4,
     "tags" : [ 
         " Green ", 
-         “Park”
-        " London ", 
+         "Park",
+        "London", 
         " Green ", 
-        “Park”
+        "Park"<
        "good"
     ],
     "weather" : "Good",

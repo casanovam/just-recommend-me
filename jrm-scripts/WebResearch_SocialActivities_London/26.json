@@ -1,28 +1,28 @@
 {
-    "city”: “London ",
-    "description" : " Anorak and Molly-Meg Pop-Up",
-    "durationHR" : "13",
-    "link" : " http://www.anorakonline.co.uk/",
-    "location" : [ 
+   "city":London",
+   "description":"Anorak and Molly-Meg Pop-Up",
+   "durationHR":"13",
+   "link":"http://www.anorakonline.co.uk/",
+   "location": [ 
 51.5496215,
 -0.123395
     ],
-    "name" : " Anorak and Molly-Meg Pop-Up ",
-    "numVotes" : 8,
-    "price" : 0,
-    "score" : 4.5,
-    "tags" : [ 
-        " Anorak ", 
-         “Molly-Meg”
-         “Pop-Up”
-        " London ", 
-        " Anorak ", 
-        “Molly-Meg”
-        " Pop-Up ", 
-        "good"
+   "name":"Anorak and Molly-Meg Pop-Up",
+   "numVotes": 8,
+   "price": 0,
+   "score": 4.5,
+   "tags": [ 
+       "Anorak", 
+       		"Molly-Me",
+       "Pop",
+       "London", 
+       "Anorak", 
+       "Molly-Meg",
+       "Pop-Up", 
+       "good"
     ],
-    "facilities" : "Good",
-    "weekDay" : 7
+   "facilities":"Good",
+   "weekDay": 7
 }
 
 

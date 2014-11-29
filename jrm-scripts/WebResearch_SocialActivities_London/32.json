@@ -1,24 +1,24 @@
 {
-    "city”: “London ",
-    "description" : " London Zoo ",
-    "durationHR" : "13",
-    "link" : " http://www.zsl.org/zsl-london-zoo",
-    "location" : [ 
+   "city":"London",
+   "description":"London Zoo",
+   "durationHR":"13",
+   "link":"http://www.zsl.org/zsl-london-zoo",
+   "location": [ 
 51.535287,
 -0.15343,
     ],
-    "name" : " London Zoo ",
-    "numVotes" : 26,
-    "price" : 33.67,
-    "score" : 4,
-    "tags" : [ 
-        " London ", 
-         “Zoo”
-        " London ", 
-        " Zoo ", 
-        " UK", 
-        "good"
+   "name":"London Zoo",
+   "numVotes": 26,
+   "price": 33.67,
+   "score": 4,
+   "tags": [ 
+       "London", 
+        "Zoo",
+       "London", 
+       "Zoo", 
+       "UK", 
+       "good"
     ],
-    "weather" : "Good",
-    "weekDay" : 7
+   "weather":"Good",
+   "weekDay": 7
 }

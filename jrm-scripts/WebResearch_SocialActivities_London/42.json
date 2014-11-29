@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city": "London",
     "description" : " Regent's Park",
     "durationHR" : "13",
     "link" : " https://www.royalparks.org.uk/parks/the-regents-park",
@@ -13,10 +13,10 @@
     "score" : 4.6,
     "tags" : [ 
         " Regent's ", 
-         “Park”
-        " London ", 
+         "Park",
+        "London", 
         " Regent's ", 
-        “Park”
+        "Park",
        "good"
     ],
     "weather" : "Good",
