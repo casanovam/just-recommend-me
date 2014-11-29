@@ -1,0 +1,24 @@
+{
+    "city" : "dublin",
+    "description" : " Rustic Stone Restaurant,South Georges St., Dublin ",
+    "durationHR" : "7.5",
+    "link" : " http://www.rusticstone.ie/menu/bites.htm/",
+    "location" : [ 
+            53.2219111,
+            -7.4562809
+                ],
+    "name" : " Rustic Stone Restaurant,South Georges St., Dublin ",
+    "numVotes" : 57,
+    "price" : 4,
+    "score" : 4.5,
+    "tags" : [ 
+        "place", 
+        "visit", 
+        "dublin", 
+        " Rustic ", 
+        " Stone ", 
+        " Restaurant "
+    ],
+    "Food" : "Good",
+    "weekDay" : 7
+}

@@ -1,0 +1,25 @@
+{
+    "city" : "dublin",
+    "description" : "Mespil Village Food Market",
+    "durationHR" : "2",
+    "link" : "http://irishvillagemarkets.ie/mespil-road/",
+    "location" : [ 
+        53.333382, 
+        -6.247559
+    ],
+    "name" : "Mespil Village Market",
+    "numVotes" : 2,
+    "price" : 2,
+    "score" : 8,
+    "tags" : [ 
+        "food", 
+        "market", 
+        "village", 
+        "dublin", 
+        "mespil", 
+        "park", 
+        "cheap"
+    ],
+    "weather" : "Good",
+    "weekDay" : 4
+}

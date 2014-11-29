@@ -1,0 +1,30 @@
+{
+    "city" : "dublin",
+    "description" : “The Spa at Delphi Adventure Resort",
+    "durationHR" : "2.5",
+    "link" : " http://www.delphiadventureresort.com/spa.24.html",
+    "location" : [ 
+              53.62209
+               -9.75459 
+    ],
+    "name" : " The Spa at Delphi Adventure Resort ",
+    "numVotes" : 171 ,
+    "price" : 95,
+    "score" : 8.5,
+    "tags" : [ 
+        " Delphi ", 
+        " Adventure ", 
+        " Resort ", 
+        “Spa”
+        "dublin", 
+        " Delphi ", 
+        " Adventure ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+
+
+

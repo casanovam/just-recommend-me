@@ -1,0 +1,35 @@
+{
+    "city" : "dublin",
+    "description" : " Dublin Bay Cruises",
+    "durationHR" : "2",
+    "link" : "http://www.dublinbaycruises.com/",
+    "location" : [ 
+        53.3243201,
+         -6.251695
+    ],
+    "name" : " Dublin Bay Cruises ",
+    "numVotes" : 68,
+    "price" : 22,
+    "score" : 4.5,
+    "tags" : [ 
+        " Bay ", 
+        " Cruises ", 
+        "dublin", 
+        " Bay ", 
+        " Cruises ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+
+
+
+
+
+
+

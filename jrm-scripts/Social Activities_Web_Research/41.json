@@ -1,0 +1,40 @@
+{
+    "city" : "dublin",
+    "description" : " Rebellion Walking Tours ",
+    "durationHR" : "2",
+    "link" : " http://www.1916rising.com",
+    "location" : [ 
+          53.343104,
+         -6.261886
+    ],
+    "name" : " Rebellion Walking Tours ",
+    "numVotes" : 2,
+    "price" : 2,
+    "score" : 8,
+    "tags" : [ 
+        " Rebellion ", 
+        " Walking ", 
+        " Tours ", 
+         "dublin", 
+        " Rebellion ", 
+        " Walking ", 
+         "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

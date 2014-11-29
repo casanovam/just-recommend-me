@@ -1,0 +1,30 @@
+{
+    "city" : "dublin",
+    "description" : " Clondalkin Slí",
+    "durationHR" : "0.9",
+    "link" : " http://www.irishtrails.ie/Trail/Clondalkin-Sli/1004/",
+    "location" : [ 
+        -6.380000,
+       53.320700'
+   ],
+    "name" : " Clondalkin Slí ",
+    "numVotes" : 2,
+    "price" : 2,
+    "score" : 8,
+    "tags" : [ 
+        "hiking", 
+        "place", 
+        "outdoor", 
+        "dublin", 
+        " Clondalkin ", 
+        " Slí ", 
+        "good"
+    ],
+    " Grade " : " Easy",
+    "weekDay" : 7
+}
+
+
+
+
+

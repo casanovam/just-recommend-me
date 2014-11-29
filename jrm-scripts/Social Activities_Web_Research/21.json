@@ -1,0 +1,27 @@
+{
+    "city" : "dublin",
+    "description" : " Kilmainham Gaol Museum",
+    "durationHR" : "8",
+    "link" : " www.heritageireland.ie/en/dublin/kilmainhamgaol",
+    "location" : [ 
+        53.34187,
+       -6.309805
+    ],
+    "name" : " Kilmainham Gaol Museum ",
+    "numVotes" : 6552,
+    "price" : 0,
+    "score" : 4552,
+    "tags" : [ 
+        " Kilmainham ", 
+        " Gaol", 
+        " Museum", 
+        "dublin", 
+        " Kilmainham ", 
+        " Gaol ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+

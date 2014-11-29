@@ -1,0 +1,43 @@
+{
+    "city" : "dublin",
+    "description" : " Irish Ways Walking Tours",
+    "durationHR" : "2",
+    "link" : "http://www.irishways.com/#!/catid=7;8;9",
+    "location" : [ 
+        53.0839804,
+       -6.2566509
+    ],
+    "name" : " Irish Ways Walking Tours ",
+    "numVotes" : 12,
+    "price" : 5,
+    "score" : 5,
+    "tags" : [ 
+        " Irish ", 
+        " Ways ", 
+        " Walking ", 
+        "dublin", 
+        " Walking ", 
+        " Tours ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

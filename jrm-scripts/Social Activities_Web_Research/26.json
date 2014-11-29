@@ -1,0 +1,32 @@
+{
+    "city" : "dublin",
+    "description" : " Deer Park Golf Courses ",
+    "durationHR" : "6",
+    "link" : "http://www.dublin.ie/entertainment/outdoor-activities.htm",
+    "location" : [ 
+        55.913387,
+        -3.535366
+    ],
+    "name" : " Deer Park Golf Courses ",
+    "numVotes" : 2,
+    "price" : 95,
+    "score" : 8,
+    "tags" : [ 
+        " Deer ", 
+        " Park ", 
+        " Golf ",
+        “Courses” 
+        "dublin", 
+        " Deer ", 
+        "park", 
+        " Golf "
+“ Courses”
+    ],
+    "weather" : "Good",
+    "weekDay" : 5
+}
+
+
+
+
+

@@ -1,0 +1,28 @@
+{
+    "city" : "dublin",
+    "description" : " Darndale/Belcamp Slí",
+    "durationHR" : ".5",
+    "link" : " http://www.irishtrails.ie/Trail/Darndale-Belcamp-Sli/1011/",
+    "location" : [ 
+        53.401520, 
+          -6.195300
+    ],
+    "name" : " Darndale/Belcamp Slí ",
+    "numVotes" : 2,
+    "price" : 2,
+    "score" : 8,
+    "tags" : [ 
+        " Darndale ", 
+        " Belcamp ", 
+        " Slí ", 
+        "dublin", 
+        "hiking", 
+        "place", 
+        "outdoor"
+    ],
+    "grade" : "easy",
+    "weekDay" : 4
+}
+
+
+

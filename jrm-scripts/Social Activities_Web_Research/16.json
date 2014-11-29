@@ -1,0 +1,29 @@
+{
+    "city" : "dublin",
+    "description" : " Alchemy Nightclubs and Bars ",
+    "durationHR" : "8",
+    "link" : "http://www.afterdark.ie/index.php/venue/profile/866",
+    "location" : [ 
+        53.345789,
+       -6.260033
+    ],
+    "name" : " Alchemy ",
+    "numVotes" : 10,
+    "price" : 5,
+    "score" : 8,
+    "tags" : [ 
+        "Nightclub", 
+        "Bar", 
+        " Alchemy ", 
+        "dublin", 
+        " Nightclub ", 
+        " Bar ", 
+        "good"
+    ],
+    "Grade" : "Good",
+    "weekDay" : 1
+}
+
+
+
+

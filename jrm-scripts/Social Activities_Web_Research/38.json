@@ -1,0 +1,36 @@
+{
+    "city" : "dublin",
+    "description" : " Malahide Charter Boat",
+    "durationHR" : "2",
+    "link" : "http://www.fishandtrips.ie/index.php",
+    "location" : [ 
+              53.4552869,
+               -6.1544932
+    ],
+    "name" : " Malahide Charter Boat ",
+    "numVotes" : 2,
+    "price" : 40,
+    "score" : 8,
+    "tags" : 
+[ 
+        " Malahide ", 
+        " Charter ", 
+        " Boat ", 
+        "dublin", 
+        " Charter ", 
+        " Boat ", 
+        "cheap"
+    ],
+    "weather" : "Good",
+    "weekDay" : 4
+}
+
+
+
+
+
+
+
+
+
+

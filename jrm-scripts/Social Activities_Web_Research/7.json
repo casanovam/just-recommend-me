@@ -1,0 +1,26 @@
+{
+    "city" : "dublin",
+    "description" : " Frank Ryan & Son ",
+    "durationHR" : "2",
+    "link" : " http://www.frankryans.com/tour-ryans/",
+    "location" : [ 
+                  53.347019,
+      -6.28011   
+ ],
+    "name" : " Frank Ryan & Son ",
+    "numVotes" : 18
+    "price" : 5,
+    "score" : 10,
+    "tags" : [ 
+        " Frank ", 
+        " Ryan ", 
+        " Son ", 
+        "dublin", 
+        " tour ", 
+        " ryans ", 
+        "cheap"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+

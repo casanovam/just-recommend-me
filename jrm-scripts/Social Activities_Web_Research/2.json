@@ -1,0 +1,24 @@
+{
+    "city" : "dublin",
+    "description" : "The Iveagh Gardens",
+    "durationHR" : "7.5",
+    "link" : " http://www.heritageireland.ie/en/Dublin/TheIveaghGardens/",
+    "location" : [ 
+        53.335312,
+      -6.260869
+    ],
+    "name" : " The Iveagh Gardens ",
+    "numVotes" : 28,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        "heritage", 
+        "ireland", 
+         "dublin", 
+        " Iveagh ", 
+        " Gardens ", 
+        "Free"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}

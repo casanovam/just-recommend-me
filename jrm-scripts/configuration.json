@@ -1,0 +1,8 @@
+{
+"server" :"ds051658.mongolab.com",
+"port" : "51658",
+"database" :"justrecommendme",
+"collection": "activity",
+"user" : "JRMReader",
+"password" : ""
+}

@@ -1,0 +1,29 @@
+{
+    "city" : "dublin",
+    "description" : “Aghadoe Heights Hotel & Spa",
+    "durationHR" : "2",
+    "link" : " http://www.aghadoeheights.com/spa.html",
+    "location" : [ 
+              52.077317,
+               -9.556281
+    ],
+    "name" : " Aghadoe Heights Hotel & Spa ",
+    "numVotes" : 6 ,
+    "price" : 1,
+    "score" : 4.3,
+    "tags" : [ 
+        " Aghadoe ", 
+        " Heights ", 
+        " Hotel ", 
+         “Spa”
+        "dublin", 
+        " Aghadoe ", 
+        " Heights ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+
+

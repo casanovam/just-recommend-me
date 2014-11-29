@@ -1,0 +1,42 @@
+{
+    "city" : "dublin",
+    "description" : " Glasnevin Cemetery Guided Walking Tour",
+    "durationHR" : "12",
+    "link" : "http://www.glasnevintrust.ie/",
+    "location" : [ 
+           53.372621
+           ,-6.276828
+    ],
+    "name" : " Glasnevin Cemetery Guided Walking Tour ",
+    "numVotes" : 10,
+    "price" : 2,
+    "score" : 4.6,
+    "tags" : [ 
+        " Glasnevin ", 
+        " Cemetery ", 
+        " Guided ", 
+        "dublin", 
+        " Tour ", 
+        " Walking ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

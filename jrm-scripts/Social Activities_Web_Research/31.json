@@ -1,0 +1,25 @@
+{
+    "city" : "dublin",
+    "description" : “Radisson Blu Hotel and Spa dublin ",
+    "durationHR" : "2",
+    "link" : " www.radissonblu.ie/Dublin ",
+    "location" : [ 
+              53.3657515,
+         -6.2370165    
+],
+    "name" : " Radisson Blu Hotel and Spa dublin ",
+    "numVotes" : 15,
+    "price" : 79,
+    "score" : 4.5,
+    "tags" : [ 
+        " Radisson ", 
+        " Blu ", 
+        " Hotel ", 
+         “Spa”
+        "dublin", 
+        " Spa ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}

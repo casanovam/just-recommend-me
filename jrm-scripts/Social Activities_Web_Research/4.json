@@ -1,0 +1,24 @@
+{
+    "city" : "dublin",
+    "description" : " Glasnevin Cemetery Museum ",
+    "durationHR" : "2",
+    "link" : " http://www.glasnevintrust.ie/ ",
+    "location" : [ 
+        53.3695621,
+       -6.2768536
+    ],
+    "name" : " Glasnevin Cemetery Museum ",
+    "numVotes" : 1,655,
+    "price" : 0,
+    "score" : 1,330,
+    "tags" : [ 
+        " Cultural ", 
+        "place", 
+        "dublin", 
+        " Glasnevin ", 
+        " Cemetery ", 
+        " Museum”
+    ],
+    "weather" : "Good",
+    "weekDay" : 4
+}

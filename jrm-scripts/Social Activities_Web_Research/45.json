@@ -1,0 +1,27 @@
+{
+    "city" : "dublin",
+    "description" : " Burren Smokehouse",
+    "durationHR" : "2",
+    "link" : "http://www.burrensmokehouse.ie/blog/recipes/by-ingredients/burren-smokehouse-salmon-three-ways",
+    "location" : [ 
+               53.028073,
+-9.292269
+    ],
+    "name" : " Burren Smokehouse ",
+    "numVotes" : 36,
+    "price" : 6,
+    "score" : 4.6,
+    "tags" : [ 
+        " Burren ", 
+        "Smoke", 
+        "house", 
+        "dublin", 
+        " Burren ", 
+        " Smoke ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 4
+}
+
+
