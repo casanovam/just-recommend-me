@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Mission bars-pubs",
+    "durationHR" : "10",
+    "link" : " http://www.missione2.com/",
+    "location" : [ 
+51.528132,
+-0.056083
+    ],
+    "name" : " Mission bars-pubs ",
+    "numVotes" : 4,
+    "price" : 55,
+    "score" : 5,
+    "tags" : [ 
+        " Rabbit ", 
+         “restaurant”
+        " London ", 
+        " Rabbit ", 
+        “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+

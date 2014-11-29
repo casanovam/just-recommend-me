@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Medway Valley Lakes and Woods Trail ",
+    "durationHR" : "11",
+    "link" : " http://www.valleyofvisions.org.uk/MedwayValleyRailTrails.php",
+    "location" : [ 
+51.49521,
+-0.143898
+    ],
+    "name" : " Medway Valley Lakes and Woods Trail ",
+    "numVotes" : 4,
+    "price" : 26,
+    "score" : 4,
+    "tags" : [ 
+        " Medway ", 
+         “Valley”
+        " London ", 
+        " Lakes ", 
+        “Woods”
+        " Trail ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 3
+}
+

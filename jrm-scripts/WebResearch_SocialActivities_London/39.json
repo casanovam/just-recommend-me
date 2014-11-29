@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Hertfordshire Forest Trail ",
+    "durationHR" : "11",
+    "link" : " http://www.gps-routes.co.uk/routes/home.nsf/county-walks/hertfordshire",
+    "location" : [ 
+51.530884,
+-0.1229,
+    ],
+    "name" : " Hertfordshire Forest Trail ",
+    "numVotes" : 8,
+    "price" : 26,
+    "score" : 5,
+    "tags" : [ 
+        " Hertfordshire ", 
+         “Forest”
+        " London ", 
+        " Hertfordshire ", 
+        “Forest”
+        " Trail ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+

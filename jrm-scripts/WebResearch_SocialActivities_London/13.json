@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Canvas Bar",
+    "durationHR" : "10",
+    "link" : " http://www.canvasbar.co.uk/",
+    "location" : [ 
+51.526199,
+-0.085938
+    ],
+    "name" : " Canvas Bar ",
+    "numVotes" : 3,
+    "price" : 47,
+    "score" : 5,
+    "tags" : [ 
+        " Canvas ", 
+         “Bar”
+        " London ", 
+        " Canvas ", 
+        “Bar”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+

@@ -1,0 +1,29 @@
+{
+    "city”: “London ",
+    "description" : " Three Eight Four bars-pubs",
+    "durationHR" : "13",
+    "link" : " http://www.threeeightfour.com/",
+    "location" : [ 
+51.4618693,
+-0.1122387
+    ],
+    "name" : " Three Eight Four bars-pubs ",
+    "numVotes" : 2,
+    "price" : 30,
+    "score" : 4.5,
+    "tags" : [ 
+        " Three ", 
+         “Eight”
+         “Four”
+        “bars-pubs”
+        " London ", 
+        " Rabbit ", 
+        “Three”
+        " Eight ", 
+         “Four”
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+

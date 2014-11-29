@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Shrub & Shutter bars-pubs",
+    "durationHR" : "8",
+    "link" : " http://www.timeout.com/london/bars-pubs/shrub-shutter",
+    "location" : [ 
+51.4628469,
+-0.1084601
+    ],
+    "name" : " Shrub & Shutter bars-pubs ",
+    "numVotes" : 2,
+    "price" : 50,
+    "score" : 5,
+    "tags" : [ 
+        " Shrub ", 
+         “Shutter”
+       “bars-pubs”
+        " London ", 
+        " Shrub ", 
+        “Shutter”
+        " bars-pubs ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 6
+}
+

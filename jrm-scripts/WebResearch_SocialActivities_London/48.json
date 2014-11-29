@@ -1,0 +1,26 @@
+{
+ 	   "city”: “London ",
+  	  "description" : " The Central London Bicycle Tour",
+  	  "durationHR" : "3",
+  	  "link" : " http://www.londonbicycle.com/tours/half-day/central-tour,
+              51.5110125,
+              -0.1790305
+  ],
+    "name" : " The Central London Bicycle Tour ",
+    "numVotes" : 24,
+    "price" : 23.95,
+    "score" : 4.7,
+    "tags" : [ 
+        " Central ", 
+         “Bicycle”
+        " London ", 
+        " Bicycle ", 
+        " Tour", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+

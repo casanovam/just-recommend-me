@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Sea Containers at Mondrian ",
+    "durationHR" : "12",
+    "link" : " https://www.morganshotelgroup.com/mondrian/mondrian-london/eat-drink/sea-containers",
+    "location" : [ 
+51.5079569,
+-0.1070323
+    ],
+    "name" : " Sea Containers at Mondrian ",
+    "numVotes" : 4,
+    "price" : 110,
+    "score" : 4,
+    "tags" : [ 
+        " Sea ", 
+         “Containers”
+        " London ", 
+        " Sea ", 
+         “Containers”
+
+        “Mondrian”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+

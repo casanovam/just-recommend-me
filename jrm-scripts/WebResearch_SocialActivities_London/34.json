@@ -1,0 +1,25 @@
+{
+    "city”: “London ",
+    "description" : " Royal Windsor Trail ",
+    "durationHR" : "13",
+    "link" : "www.windsorhalfmarathon.co.uk",
+    "location" : [ 
+51.4773054,
+-0.632684
+    ],
+    "name" : " Royal Windsor Trail ",
+    "numVotes" : 4,
+    "price" : 24,
+    "score" : 4,
+    "tags" : [ 
+        " Royal ", 
+         “Windsor”
+        " London ", 
+        " Royal ", 
+        “Trail”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}

@@ -1,0 +1,25 @@
+{
+    "city”: " London ",
+    "description" : " Sherlock Holmes museum",
+    "durationHR" : "8",
+    "link" : "http://www.museumoflondon.org.uk/london-wall/",
+    "location" : [ 
+        51.517618,
+       -0.096778
+    ],
+    "name" : " Sherlock Holmes museum ",
+    "numVotes" : 290,
+    "price" : 12,
+    "score" : 4.5,
+    "tags" : [ 
+        " museum ", 
+        " Sherlock ", 
+        " Holmes ", 
+        " London ", 
+        " museum ", 
+        "good", 
+        
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+

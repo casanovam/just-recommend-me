@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Natural History Museum ",
+    "durationHR" : "7.5",
+    "link" : " http://www.nhm.ac.uk/",
+    "location" : [ 
+51.496715,
+-0.176367
+    ],
+    "name" : " Natural History Museum ",
+    "numVotes" : 695,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " Natural ", 
+        " History ",
+        “Museum”
+        " London ", 
+        " Natural ",
+         " History ",
+        “Museum”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+

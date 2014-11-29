@@ -1,0 +1,25 @@
+{
+    "city”: “London ",
+    "description" : " Ethos restaurant",
+    "durationHR" : "14",
+    "link" : " http://ethosfoods.com/",
+    "location" : [ 
+51.516312,
+-0.139166
+    ],
+    "name" : " Ethos restaurant ",
+    "numVotes" : 6,
+    "price" : 30,
+    "score" : 3.8,
+    "tags" : [ 
+        " Ethos ", 
+         “restaurant”
+        " London ", 
+        " Ethos ", 
+        “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 4
+}

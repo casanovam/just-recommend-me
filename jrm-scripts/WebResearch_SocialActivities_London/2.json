@@ -1,0 +1,26 @@
+{
+    "city" : " London ",
+    "description" : " Victoria and Albert Museum",
+    "durationHR" : "8",
+    "link" : "http://www.vam.ac.uk/",
+    "location" : [ 
+51.497346,
+-0.172545
+    ],
+    "name" : " Victoria and Albert Museum ",
+    "numVotes" : 426,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " Victoria ", 
+        " Albert ", 
+        " Museum ", 
+        " London ", 
+        " Victoria ", 
+        " Albert ", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 4
+}
+

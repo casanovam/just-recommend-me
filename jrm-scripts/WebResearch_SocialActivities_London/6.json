@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Anima e Cuore restaurant",
+    "durationHR" : "9",
+    "link" : " http://www.animaecuore.co.uk/",
+    "location" : [ 
+51.54457,
+-0.141688
+    ],
+    "name" : " Anima e Cuore restaurant ",
+    "numVotes" : 2,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " Anima ", 
+        " e Cuore ",
+         “restaurant”
+        " London ", 
+        " Anima ", 
+       " e Cuore ",
+       “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}

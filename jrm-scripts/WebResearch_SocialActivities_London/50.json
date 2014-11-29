@@ -1,0 +1,32 @@
+{
+    "city”: “London ",
+    "description" : " Royal London Bike Tour
+",
+    "durationHR" : "4",
+    "link" : " http://london.fattirebiketours.com/tours/royal-london-bike-tour",
+    "location" : [ 
+51.5080945,
+-0.1816698,
+    ],
+    "name" : " Royal London Bike Tour",
+    "numVotes" : 4,
+    "price" : 20,
+    "score" : 4,
+    "tags" : [ 
+        " Royal ", 
+         “Bike”
+         “Tour”
+        " London ", 
+        " Grand ",
+         “Royal”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 5
+}
+
+
+
+
+

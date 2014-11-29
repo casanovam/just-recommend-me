@@ -1,0 +1,30 @@
+{
+    "city”: “London ",
+    "description" : " Grand London Bike Tour",
+    "durationHR" : "3.5",
+    "link" : " http://www.biketouroflondon.com/grandtour.html",
+    "location" : [ 
+51.503165,
+-0.112305,
+    ],
+    "name" : " Grand London Bike Tour ",
+    "numVotes" : 28,
+    "price" : 32.58,
+    "score" : 4.5,
+    "tags" : [ 
+        " Grand ", 
+         “Bike”
+         “Tour”
+        " London ", 
+        " Grand ",
+         “Bike”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 3
+}
+
+
+
+

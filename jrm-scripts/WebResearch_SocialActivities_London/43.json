@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Hampstead Heath",
+    "durationHR" : "13",
+    "link" : http://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/Pages/default.aspx",
+    "location" : [ 
+51.560842,
+-0.163138
+    ],
+    "name" : " Hampstead Heath ",
+    "numVotes" : 93,
+    "price" : 0,
+    "score" : 4.7,
+    "tags" : [ 
+        " Hampstead ", 
+         “Heath”
+        " London ", 
+        " Hampstead ", 
+        “Heath”
+          "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+

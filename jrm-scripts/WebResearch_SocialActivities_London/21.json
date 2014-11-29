@@ -1,0 +1,25 @@
+{
+    "city”: “London ",
+    "description" : " Broadway Market",
+    "durationHR" : "13",
+    "link" : " http://www.broadwaymarket.co.uk/",
+    "location" : [ 
+51.536665,
+-0.061755
+    ],
+    "name" : " Broadway Market ",
+    "numVotes" : 4,
+    "price" : 40,
+    "score" : 4,
+    "tags" : [ 
+        " Broadway ", 
+         “Market”
+        " London ", 
+        " Broadway ", 
+        “Market”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 6
+}

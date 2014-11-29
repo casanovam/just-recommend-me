@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Night Tales clubs",
+    "durationHR" : "13",
+    "link" : " http://www.nighttales.co.uk/",
+    "location" : [ 
+
+51.5230152,
+-0.0662318
+    ],
+    "name" : " Night Tales clubs ",
+    "numVotes" : 4,
+    "price" : 3,
+    "score" : 4,
+    "tags" : [ 
+        " Rabbit ", 
+         “restaurant”
+        " London ", 
+        " Rabbit ", 
+        “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+

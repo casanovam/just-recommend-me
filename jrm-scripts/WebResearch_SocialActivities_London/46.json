@@ -1,0 +1,29 @@
+{
+    "city”: “London ",
+    "description" : " Spa London",
+    "durationHR" : "13",
+    "link" : " http://www.spa-london.org/",
+    "location" : [ 
+51.529647,
+-0.055027
+    ],
+    "name" : " Spa  London ",
+    "numVotes" : 4,
+    "price" : 90,
+    "score" : 4,
+    "tags" : [ 
+        " Spa ", 
+         “spas”
+        " London ", 
+        " spas ", 
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+

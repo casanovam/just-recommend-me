@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Real Food Market",
+    "durationHR" : "12",
+    "link" : " http://www.realfoodfestival.co.uk/markets",
+    "location" : [ 
+51.50563,
+-0.116279
+    ],
+    "name" : " Real Food Market ",
+    "numVotes" : 10,
+    "price" : 0,
+    "score" : 5,
+    "tags" : [ 
+        " Real ", 
+         “Food”
+        “Market”
+        " London ", 
+        " Food ", 
+        “Market”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}

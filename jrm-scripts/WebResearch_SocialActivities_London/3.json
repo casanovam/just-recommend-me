@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Horniman Museum ",
+    "durationHR" : "7",
+    "link" : " http://www.horniman.ac.uk ",
+    "location" : [ 
+51.441304,
+-0.060596
+    ],
+    "name" : " Horniman Museum ",
+    "numVotes" : 106,
+    "price" : 0,
+    "score" : 4.5,
+    "tags" : [ 
+        " Horniman ", 
+        " Museum ", 
+        " London ", 
+        " Horniman ", 
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+

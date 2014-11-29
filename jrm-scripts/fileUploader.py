@@ -4,6 +4,8 @@ import os
 import sys
 import json
 import pymongo
+import os
+
 
 from pymongo import MongoClient
 
@@ -138,14 +140,25 @@ def getImage(path):
 			image64: image encoded in base64
 						
 	"""		
-	#Open the image and encode as base64
-	image= open(path)
-	image12 = image.read()
-	image64 = image12.encode("base64")
-	#Remove the endline
-	image64 = image64[:-1]
 	
-	return image64
+	#Encode the image in base64 in shell and read plain text
+	
+	cmd = "head -c 10000000 "+path+" | base64 > "+ path+"BASE64"
+
+
+	os.system(cmd)
+	
+	
+	
+	#Open the image
+	image= open(path+"BASE64")
+	imageFile = image.read()
+	#Remove the endline
+	imageCapped = imageFile[:-1]
+	
+	
+	
+	return imageCapped
 
 
 
@@ -163,13 +176,15 @@ def getJson(path):
 							
 	"""			
 	try:
-		json=open(path)		
-		jsonData=json.load(json)
+			
+		
+		jsonPath=open(path)		
+		jsonData=json.load(jsonPath)
 		return jsonData
 	#If the file is not in the expect format, or is not found an exception is raised
 	except Exception as e:
 		print("Error opening <<"+path+">> file, check file format, structure and location")
-		pass	
+			
 
 
 
@@ -199,16 +214,26 @@ def generateJsonCollection(activities,images):
 		activityPosition=activityPosition+1
 		
 		image64= getImage(imagePath)
-		jsonObj= getJson(activityPath)
+		try:
+			jsonObj= getJson(activityPath)
+			
+			
+				
+			imageJson = {"type":"jpeg","content":image64}
+				
+			jsonObj['image']=imageJson
 		
 		
+		
+			jsonCollection.append(jsonObj)
+			
+		except Exception as e:
+			print(e)
+			pass	
 
-		jsonObj['image.content']=str(image64)
-		jsonObj['image.type']='jpeg'
-		
-		jsonObj.append(imageField)
-		
-		jsonCollection.append(jsonObj)
+
+	
+	return jsonCollection
 
 
 
@@ -224,7 +249,7 @@ def uploadCollection(objectCollection, dbCollection):
 	"""	
 
 	
-	for jsonObject in objectcollection:
+	for jsonObject in objectCollection:
 		dbCollection.insert(jsonObject)
 		
 
@@ -253,10 +278,7 @@ def main():
 		#Iterate the folder and subfolders retrieving the paths to the files		
 		activities,images = getFilePaths(folder)		
 		
-				
-				
-		
-				
+						
         
 		#Open any file and print it content
 		#for activity in activities:
@@ -275,15 +297,17 @@ def main():
 		colActivities=getCollection(db,confData["collection"])
 		
 
-		print(colActivities)
+		#print(colActivities)
 
 
 		#Show one activity for testing purposes
 		#test= colActivities.find_one()
 		#print (test)
 		
+		#print(jsonObjects)
 		
 		
+		uploadCollection(jsonObjects,colActivities)
 		
 
 

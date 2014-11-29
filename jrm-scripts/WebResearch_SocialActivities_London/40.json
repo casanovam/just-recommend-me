@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Woodlands of Box Hill ",
+    "durationHR" : "11",
+    "link" : " http://www.nationaltrust.org.uk/box-hill/things-to-see-and-do/",
+    "location" : [ 
+51.255112,
+-0.315676
+    ],
+    "name" : " Woodlands of Box Hill ",
+    "numVotes" : 10,
+    "price" : 24,
+    "score" : 4.5,
+    "tags" : [ 
+        " Woodlands ", 
+         “Box”
+        " London ", 
+        " Box ", 
+        “Hill”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 3
+}
+
+
+

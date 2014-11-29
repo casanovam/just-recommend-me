@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " The Barry Wise Wise Tour of Soho",
+    "durationHR" : "13",
+    "link" : " http://www.ginglik.co.uk/home/4586533787",
+    "location" : [ 
+51.5152122,
+-0.1331846
+    ],
+    "name" : " The Barry Wise Wise Tour of Soho ",
+    "numVotes" : 4,
+    "price" : 15,
+    "score" : 4,
+    "tags" : [ 
+        " Barry ", 
+         “Wise”
+        " London ", 
+        " Tour ", 
+        “Soho”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 3
+}
+
+

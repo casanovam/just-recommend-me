@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Hyde Park",
+    "durationHR" : "13",
+    "link" : " https://www.royalparks.org.uk/parks/hyde-park",
+    "location" : [ 
+51.5076303,
+-0.1633065,
+    ],
+    "name" : " Hyde Park ",
+    "numVotes" : 441,
+    "price" : 0,
+    "score" : 4.5,
+    "tags" : [ 
+        " Hyde ", 
+         “Park”
+        " London ", 
+        " Hyde ", 
+        “Park”
+       "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+

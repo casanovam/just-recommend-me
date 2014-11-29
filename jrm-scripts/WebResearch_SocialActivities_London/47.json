@@ -1,0 +1,27 @@
+{
+   	 "city”: “London ",
+    	"description" : " The London Christmas Lights Bicycle Tour",
+    	"durationHR" : "3",
+   	 "link" : " http://www.londonbicycle.com/christmaslightstour,
+              51.5070313,
+-0.1134907  
+  ],
+    "name" : " The London Christmas Lights Bicycle Tour ",
+    "numVotes" : 4,
+    "price" : 36.59,
+    "score" : 4,
+    "tags" : [ 
+        " Christmas ", 
+         “Lights”
+        " London ", 
+        " Bicycle ", 
+        " Tour", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+

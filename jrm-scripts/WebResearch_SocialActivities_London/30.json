@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Kris Cruisers Boat Trip",
+    "durationHR" : "1",
+    "link" : " http://www.kriscruisers.co.uk/
+",
+    "location" : [ 
+51.481928,
+-0.581835    ],
+    "name" : " Kris Cruisers Boat Trip ",
+    "numVotes" : 17,
+    "price" : 28,
+    "score" : 4.7,
+    "tags" : [ 
+        " Kris ", 
+         “Cruisers”
+        " London ", 
+        " Boat ", 
+        “Trip”
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+

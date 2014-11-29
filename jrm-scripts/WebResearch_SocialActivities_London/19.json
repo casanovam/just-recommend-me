@@ -1,0 +1,31 @@
+{
+    "city”: “London ",
+    "description" : " Berwick Street Market",
+    "durationHR" : "13",
+    "link" : " http://www.berwickstreetlondon.co.uk/",
+    "location" : [ 
+51.5138897,
+-0.1352008
+    ],
+    "name" : " Berwick Street Market ",
+    "numVotes" : 8,
+    "price" : 40,
+    "score" :5,
+    "tags" : [ 
+        " Berwick ", 
+         “Street”
+         “Market”
+        " London ", 
+        " Rabbit ", 
+        “Berwick”
+        " Street ", 
+        “Market”
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}
+
+
+
+

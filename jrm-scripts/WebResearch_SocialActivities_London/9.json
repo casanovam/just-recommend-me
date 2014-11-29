@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Rabbit  restaurant",
+    "durationHR" : "13",
+    "link" : " http://www.rabbit-restaurant.com/",
+    "location" : [ 
+51.488628,
+-0.166049
+    ],
+    "name" : " Rabbit  restaurant ",
+    "numVotes" : 4,
+    "price" : 90,
+    "score" : 4,
+    "tags" : [ 
+        " Rabbit ", 
+         “restaurant”
+        " London ", 
+        " Rabbit ", 
+        “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}
+

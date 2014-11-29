@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Maltby Street Market",
+    "durationHR" : "5",
+    "link" : " http://www.maltby.st/",
+    "location" : [ 
+51.499323,
+-0.075875
+    ],
+    "name" : " Maltby Street Market ",
+    "numVotes" : 22,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " Maltby ", 
+         “Street”
+         “Market”
+        " London ", 
+        " Street ", 
+        “Market”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 2
+}
+

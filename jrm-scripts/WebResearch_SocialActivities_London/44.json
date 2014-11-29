@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Green Park",
+    "durationHR" : "8",
+    "link" : " https://www.royalparks.org.uk/parks",
+    "location" : [ 
+51.5067765,
+-0.142693
+    ],
+    "name" : " Green  Park ",
+    "numVotes" : 4,
+    "price" : 90,
+    "score" : 4,
+    "tags" : [ 
+        " Green ", 
+         “Park”
+        " London ", 
+        " Green ", 
+        “Park”
+       "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+

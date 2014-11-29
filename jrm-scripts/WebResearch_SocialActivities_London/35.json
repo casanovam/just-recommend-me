@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Tunbridge Wells Woods and Valleys Trail ",
+    "durationHR" : "11",
+    "link" : " http://www.meetup.com/Trailblazer/events/216206842/",
+    "location" : [ 
+51.1330781,
+0.2481291
+    ],
+    "name" : " Tunbridge Wells Woods and Valleys Trail ",
+    "numVotes" : 4,
+    "price" : 26,
+    "score" : 4,
+    "tags" : [ 
+        " Tunbridge ", 
+         “Wells”
+        " London ", 
+        " Woods ", 
+        “Valleys”
+        " Trail ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}
+

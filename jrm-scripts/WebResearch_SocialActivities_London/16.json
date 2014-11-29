@@ -1,0 +1,25 @@
+{
+    "city”: “London ",
+    "description" : " Pillow Cinema",
+    "durationHR" : "2",
+    "link" : " http://www.eventbrite.co.uk/o/pillow-cinema-7649831585",
+    "location" : [ 
+51.5230152,
+-0.0662318    ],
+    "name" : " Pillow Cinema ",
+    "numVotes" : 4,
+    "price" : 20,
+    "score" : 4,
+    "tags" : [ 
+        " Pillow ", 
+         “Cinema”
+        " London ", 
+        " Cinema ",    
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+

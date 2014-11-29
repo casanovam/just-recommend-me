@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Le Shop Clubs Disco Stage 3 ",
+    "durationHR" : "13",
+    "link" : " http://www.hackneyempire.co.uk/1831/eating-and-drinking/stage-3.html",
+    "location" : [ 
+51.54563,
+-0.055382
+    ],
+    "name" : " Le Shop Clubs Disco Stage 3 ",
+    "numVotes" : 8,
+    "price" : 0,
+    "score" : 4.5,
+    "tags" : [ 
+        " Le Shop ", 
+         “Clubs”
+        " London ", 
+        " Disco ", 
+        “Stage 3”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 1
+}
+
+
+

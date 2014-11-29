@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " The Goodhood Store",
+    "durationHR" : "8",
+    "link" : " http://goodhoodstore.com/",
+    "location" : [ 
+51.52669,
+-0.080545
+    ],
+    "name" : " The Goodhood Store ",
+    "numVotes" : 2,
+    "price" : 50,
+    "score" : 2,
+    "tags" : [ 
+        " Goodhood ", 
+         “Store”
+        " London ", 
+        " Goodhood ", 
+        “Store”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+

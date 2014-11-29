@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " Decorum Pop-Up",
+    "durationHR" : "13",
+    "link" : " http://decorum-shop.co.uk/",
+    "location" : [ 
+51.523518,
+-0.076454
+    ],
+    "name" : " Decorum Pop-Up ",
+    "numVotes" : 1,
+    "price" : 0,
+    "score" : 5,
+    "tags" : [ 
+        " Decorum ", 
+         “Pop-Up”
+        " London ", 
+        " Decorum ", 
+        “Shopping”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}
+
+

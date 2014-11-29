@@ -1,0 +1,27 @@
+{
+    "city”: “London ",
+    "description" : " British Museum",
+    "durationHR" : "7.5",
+    "link" : " http://www.britishmuseum.org/",
+    "location" : [ 
+51.519413,
+-0.126957
+    ],
+    "name" : " British Museum ",
+    "numVotes" : 965,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " British ", 
+        " Museum ", 
+        " London ", 
+        " British ", 
+        " UK", 
+        "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+

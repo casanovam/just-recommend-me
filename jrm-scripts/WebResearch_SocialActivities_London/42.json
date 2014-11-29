@@ -1,0 +1,29 @@
+{
+    "city”: “London ",
+    "description" : " Regent's Park",
+    "durationHR" : "13",
+    "link" : " https://www.royalparks.org.uk/parks/the-regents-park",
+    "location" : [ 
+51.5325648,
+-0.1565506
+    ],
+    "name" : " Regent's Park ",
+    "numVotes" : 201,
+    "price" : 0,
+    "score" : 4.6,
+    "tags" : [ 
+        " Regent's ", 
+         “Park”
+        " London ", 
+        " Regent's ", 
+        “Park”
+       "good"
+    ],
+    "weather" : "Good",
+    "weekDay" : 7
+}
+
+
+
+
+

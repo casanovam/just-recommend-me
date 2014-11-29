@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Whovian Tours",
+    "durationHR" : "2.5",
+    "link" : " http://www.whoviantours.com",
+    "location" : [ 
+51.511447,
+-0.090194
+    ],
+    "name" : " Whovian Tours ",
+    "numVotes" : 4,
+    "price" : 12,
+    "score" : 4,
+    "tags" : [ 
+        " Whovian ", 
+         “Tours”
+        " London ", 
+        " Walks ", 
+                      “tours”
+                      " UK", 
+                      "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}
+

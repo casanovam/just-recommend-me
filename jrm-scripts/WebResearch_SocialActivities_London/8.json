@@ -1,0 +1,25 @@
+{
+    "city”: “London ",
+    "description" : " Spring  restaurant",
+    "durationHR" : "16.5",
+    "link" : " http://www.springrestaurant.co.uk/",
+    "location" : [ 
+51.511059,
+-0.117148
+    ],
+    "name" : " Spring  restaurant ",
+    "numVotes" : 5,
+    "price" : 160,
+    "score" : 4.3,
+    "tags" : [ 
+        " Spring ", 
+         “restaurant”
+        " London ", 
+        " Spring ", 
+        “restaurant”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}

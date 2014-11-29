@@ -1,0 +1,24 @@
+{
+    "city”: “London ",
+    "description" : " maiden-pop-up Shops and sales ",
+    "durationHR" : "13",
+    "link" : " http://www.maidenshop.com/",
+    "location" : [ 
+51.523518,
+-0.076454
+    ],
+    "name" : " maiden-pop-up Shops and sales ",
+    "numVotes" : 225,
+    "price" : 20.00,
+    "score" : 4,
+    "tags" : [ 
+        " maiden ", 
+         “pop-up”
+        " London ", 
+        " Shops ", 
+        “sales”
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 3
+}

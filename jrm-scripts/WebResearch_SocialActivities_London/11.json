@@ -1,0 +1,28 @@
+{
+    "city”: “London ",
+    "description" : " Dandelyan bars-pubs",
+    "durationHR" : "13",
+    "link" : " http://www.viewlondon.co.uk/pubsandbars/dandelyan-maps-281883.html",
+    "location" : [ 
+51.507957,
+-0.107032
+    ],
+    "name" : " Dandelyan bars-pubs ",
+    "numVotes" : 1,
+    "price" : 40,
+    "score" : 4,
+    "tags" : [ 
+        " Dandelyan ", 
+         “bars”
+        “pubs”
+        " London ", 
+        " Rabbit ", 
+        “Dandelyan”
+        " bars-pubs ", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 7
+}
+
+

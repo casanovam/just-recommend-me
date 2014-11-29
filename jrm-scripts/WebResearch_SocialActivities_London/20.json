@@ -1,0 +1,26 @@
+{
+    "city”: “London ",
+    "description" : " Borough Market",
+    "durationHR" : "13",
+    "link" : " http://www.boroughmarket.org.uk/",
+    "location" : [ 
+51.50545,
+-0.091101
+    ],
+    "name" : " Borough Market ",
+    "numVotes" : 5,
+    "price" : 50,
+    "score" : 3.5,
+    "tags" : [ 
+        " Borough ", 
+         “Market”
+        " London ", 
+        " Borough ", 
+        “Market”
+        " UK", 
+        "good"
+    ],
+    "facilities" : "Good",
+    "weekDay" : 6
+}
+
