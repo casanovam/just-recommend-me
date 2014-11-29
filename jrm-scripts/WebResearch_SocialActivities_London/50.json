@@ -1,5 +1,5 @@
 {
-    "city”: “London ",
+    "city":"London",
     "description" : " Royal London Bike Tour
 ",
     "durationHR" : "4",
@@ -14,11 +14,11 @@
     "score" : 4,
     "tags" : [ 
         " Royal ", 
-         “Bike”
-         “Tour”
-        " London ", 
+         "Bike",
+         "Tour",
+        "London", 
         " Grand ",
-         “Royal”
+         "Royal",
         " UK", 
         "good"
     ],
