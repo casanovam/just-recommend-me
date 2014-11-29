@@ -1,5 +1,5 @@
 {
-   "city”:"London",
+   "city":"London",
    "description":"Thames River Country Trail",
    "durationHR":"11",
    "link":"http://www.visitthames.co.uk/things-to-do/walking",
@@ -13,10 +13,10 @@
    "score": 4,
    "tags": [ 
        "Thames", 
-        "River”,
+        "River",
        "London", 
        "Country", 
-       "Trail”,
+       "Trail",
        "good"
     ],
    "weather":"Good",

@@ -1,5 +1,5 @@
 {
-   "city”:"London",
+   "city":"London",
    "description":"Guildford Hills and Woods Trail",
    "durationHR":"11.5",
    "link":"http://www.meetup.com/Trailblazer/events/205928542/",
@@ -12,10 +12,10 @@
    "score": 3,
    "tags": [ 
        "Guildford", 
-        "Hills”
+        "Hills"
        "London", 
        "Woods", 
-       "Trail”
+       "Trail",
        "good"
     ],
    "weather":"Good",
