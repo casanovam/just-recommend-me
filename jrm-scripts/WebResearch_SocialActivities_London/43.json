@@ -2,7 +2,7 @@
     "city": "London",
     "description" : " Hampstead Heath",
     "durationHR" : "13",
-    "link" : http://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/Pages/default.aspx",
+    "link" :"http://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/Pages/default.aspx",
     "location" : [ 
 51.560842,
 -0.163138

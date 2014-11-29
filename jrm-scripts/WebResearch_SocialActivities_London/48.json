@@ -2,8 +2,8 @@
  	   "city": "London",
   	  "description" : " The Central London Bicycle Tour",
   	  "durationHR" : "3",
-  	  "link" : " http://www.londonbicycle.com/tours/half-day/central-tour,
-              51.5110125,
+  	  "link" : " http://www.londonbicycle.com/tours/half-day/central-tour",
+           "locaton": [ 51.5110125,
               -0.1790305
   ],
     "name" : " The Central London Bicycle Tour ",

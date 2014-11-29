@@ -2,8 +2,8 @@
    	 "city": "London",
     	"description" : " The London Christmas Lights Bicycle Tour",
     	"durationHR" : "3",
-   	 "link" : " http://www.londonbicycle.com/christmaslightstour,
-              51.5070313,
+   	 "link" : " http://www.londonbicycle.com/christmaslightstour",
+         "location":[51.5070313,
 -0.1134907  
   ],
     "name" : " The London Christmas Lights Bicycle Tour ",
