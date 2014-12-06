@@ -2,14 +2,15 @@
 //TODO: refactor this
 var JRMResults = function() {	
 
+	var MAX_SCORE = 5;
+	var MAX_ACTIVITIES_PER_PAGE = 10;
+
 	function showSearchResults(activities){
 		var wall = createWall();					
-		for(i=0;i<Math.min(10,activities.length);i++){ 
-			var imageContent = extractImageContent( activities[i].image);
-			var normScore = normalizeScore(activities[i].score, activities[i].numVotes);
-			euros = generateElement('&euro;', activities[i].price);
-			stars = generateElement('<span class="glyphicon glyphicon-star"/>', normScore);
-			var card = createCardComponent(activities[i].image.type, imageContent, euros, stars, activities);			
+		for(i=0;i<Math.min(MAX_ACTIVITIES_PER_PAGE, activities.length);i++){ 
+			var imageContent = extractImageContent( activities[i].image);			
+			stars = generateElement('<span class="glyphicon glyphicon-star"/>', Math.min(MAX_SCORE, activities[i].score));
+			var card = createCardComponent(activities[i].image.type, imageContent, stars, activities[i]);			
 			wall.appendBlock(card);			
 		}
 		attachClickHandlers();		
@@ -21,10 +22,6 @@ var JRMResults = function() {
 			content = image.content;
 		}
 		return content;
-	}
-
-	function normalizeScore(score, votes){
-		return  score / votes;
 	}
 
 	function createWall(){
@@ -52,12 +49,12 @@ var JRMResults = function() {
 		return euros;
 	}
 
-	function createCardComponent(imageType, imageContent, euros, stars, activities){
+	function createCardComponent(imageType, imageContent, stars, activity){
 		return '<div class="thumbnail  brick" style="width:250px;"><img style="width:310px;height:200px;" src="data:image/'+imageType+';base64,'+imageContent+'" alt=""><div class="">'+
-                                + '<h4>'+euros+'</h4>'
-                                + '<h4><a href="'+activities[i].link+'">'+activities[i].name+'</a>'
+                                + '<h4>45</h4>'
+                                + '<h4><a href="'+activity.link+'">'+activity.name+'</a>'
                                 + '</h4>'
-                                + '<a target="_blank" href="'+activities[i].link+'">'+activities[i].description+'</a>'
+                                + '<a target="_blank" href="'+activity.link+'">'+activity.description+'</a>'
                             + '</div>'
                             + '<div class="ratings">'
                                 + '<p>'
@@ -65,7 +62,6 @@ var JRMResults = function() {
                                 + '</p>'
                             + '</div>'
                        + ' </div>';
-
 	}
 
 	function openActivity(e){

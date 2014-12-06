@@ -1,9 +1,6 @@
 var JRM = function() {
 	
-	
-	
-	function init(){
-		
+	function init(){	
 		registerAboutUsListeners();
 		GoogleMaps.init();
 		Search.init();
@@ -21,6 +18,5 @@ var JRM = function() {
 	return {
 		init: init
 	};
-
 	
 }();
